@@ -1,0 +1,18 @@
+"Close popup",關閉彈出式視窗,module,Magento_AdminNotification
+"Unable to delete store. Please, try again later.",無法刪除商店。請稍後再試。,module,Magento_Backend
+"Unable to delete store view. Please, try again later.",無法刪除店面。請稍後再試。,module,Magento_Backend
+"Unable to delete website. Please, try again later.",無法刪除網站。請稍後再試。,module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版權所有 &copy; %1 Magento Commerce Inc. 保留擁有權利。",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file.","主題 JavaScript 和 CSS 檔合併到一個檔案。",module,Magento_Backend
+"Modify your search",修改您的搜索,module,Magento_CatalogSearch
+"Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
+"Design Theme",設計主題,module,Magento_Backend
+"User-Agent Exceptions",使用者代理例外,module,Magento_Backend
+"Find a string in client user-agent header and switch to specific design theme for that browser.",在用戶端使用者代理標題中查找字串並切換到該瀏覽器的具體設計主題。,module,Magento_Backend
+"If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.",如果現時視框的位置並不包括至上頁，將提供連結到現時位置加減值。,module,Magento_Backend
+"Alternative text for previous link in pagination menu. If empty, default arrow image will used.",替代文字在分頁功能表中的上一個連結。如果為空，將使用預設的箭頭圖像。,module,Magento_Backend
+"Alternative text for next link in pagination menu. If empty, default arrow image will used.",替代文字在分頁功能表中的下一個連結。如果為空，將使用預設的箭頭圖像。,module,Magento_Backend
+"Enable Javascript Bundling","啟用 Javascript Bundling",module,Magento_Backend
+"Recovery Link Expiration Period (days)","恢復連結過期期限 （天）",module,Magento_Backend
+"Values less than 60 are ignored.","數值小於 60 的將被忽略。",module,Magento_Backend
+"Front-end development workflow",前台開發工作流程,module,Magento_Developer
