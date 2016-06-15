@@ -4,6 +4,45 @@
 "Unable to delete website. Please, try again later.",無法刪除網站。請稍後再試。,module,Magento_Backend
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版權所有 &copy; %1 Magento Commerce Inc. 保留擁有權利。",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","主題 JavaScript 和 CSS 檔合併到一個檔案。",module,Magento_Backend
+"Stored Card",已儲存卡,module,Magento_Braintree
+"Credit card successfully added",信用卡已成功添加,module,Magento_Braintree
+"Delete Credit Card",刪除信用卡,module,Magento_Braintree
+"Credit card successfully deleted",信用卡已成功刪除,module,Magento_Braintree
+"Edit Credit Card",編輯信用卡,module,Magento_Braintree
+"My Credit Cards",我的信用卡,module,Magento_Braintree
+"There was error during saving card data",在卡資料儲存過程中發生錯誤,module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","交易被閘道拒絕 ︰ 檢查卡的詳細資料，或嘗試另一張卡",module,Magento_Braintree
+"Credit card type is not allowed for your country.",你的國家不允許這信用卡類型。,module,Magento_Braintree
+"Credit card type is not allowed for this payment method.",對於此付款條件不允許這信用卡類型。,module,Magento_Braintree
+"Selected payment type is not allowed for billing country.",計費國家不允許所選的付款類型。,module,Magento_Braintree
+"Please try again later",請稍後再試,module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","嘗試發出部分退款前請等待 24 小時。",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.",有些交易是已經解決或作廢，現不能作廢。,module,Magento_Braintree
+"Invalid Customer ID provided",提供的客戶編號無效,module,Magento_Braintree
+"Payment Information",付款資訊,module,Magento_Braintree
+"Add new card",新增卡,module,Magento_Braintree
+"Please Select",請選擇,module,Magento_Braintree
+"Save this card for future use",保存此卡作將來之用,module,Magento_Braintree
+"Please confirm that you want to delete this credit card",請確認您要刪除這張信用卡,module,Magento_Braintree
+"Cardholder Name",持卡人姓名,module,Magento_Braintree
+Delete,删除,module,Magento_Braintree
+Back,上一步,module,Magento_Braintree
+"* Required Fields","* 為必填項",module,Magento_Braintree
+"Make Default",設定為預設,module,Magento_Braintree
+"Billing Address",賬單地址,module,Magento_Braintree
+"First Name",名字,module,Magento_Braintree
+"Last Name",姓氏,module,Magento_Braintree
+Company,公司,module,Magento_Braintree
+City,城市,module,Magento_Braintree
+State/Province,州/省,module,Magento_Braintree
+"Please select region, state or province","請選擇地區、 州或省",module,Magento_Braintree
+Submit,提交,module,Magento_Braintree
+"Add Credit Card",新增信用卡,module,Magento_Braintree
+"Is Default",是預設,module,Magento_Braintree
+Actions,操作,module,Magento_Braintree
+Yes,是,module,Magento_Braintree
+No,否,module,Magento_Braintree
+Edit,編輯,module,Magento_Braintree
 "Modify your search",修改您的搜索,module,Magento_CatalogSearch
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
 "Design Theme",設計主題,module,Magento_Backend
