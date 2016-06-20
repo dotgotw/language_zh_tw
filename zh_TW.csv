@@ -44,6 +44,14 @@ Yes,是,module,Magento_Braintree
 No,否,module,Magento_Braintree
 Edit,編輯,module,Magento_Braintree
 "Modify your search",修改您的搜索,module,Magento_CatalogSearch
+"Save Category",儲存類別,module,Magento_Catalog
+"Delete Category",刪除類別,module,Magento_Catalog
+"New Subcategory",新子類別,module,Magento_Catalog
+"New Root Category",新根類別,module,Magento_Catalog
+"Set Root Category for Store",設定商店的根類別,module,Magento_Catalog
+"Custom Design",自訂設計,module,Magento_Catalog
+"Category Data",分類資料,module,Magento_Catalog
+"Not shared with other products",不能與其他產品共用,module,Magento_Catalog
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
 "Design Theme",設計主題,module,Magento_Backend
 "User-Agent Exceptions",使用者代理例外,module,Magento_Backend
