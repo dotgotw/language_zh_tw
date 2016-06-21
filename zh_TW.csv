@@ -52,6 +52,11 @@ Edit,編輯,module,Magento_Braintree
 "Custom Design",自訂設計,module,Magento_Catalog
 "Category Data",分類資料,module,Magento_Catalog
 "Not shared with other products",不能與其他產品共用,module,Magento_Catalog
+"Depends on design theme",取決於設計主題,module,Magento_Catalog
+"We saved the stock notification.",我們儲存了庫存的通知。,module,Magento_Catalog
+"Click here or drag and drop to add images.",請按一下此處或拖放加入圖像。,module,Magento_Catalog
+"This product no longer exists.",此產品不再存在。,module,Magento_Catalog
+"Are you sure you want to delete this category?",是否確實要刪除此類別？,module,Magento_Catalog
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
 "Design Theme",設計主題,module,Magento_Backend
 "User-Agent Exceptions",使用者代理例外,module,Magento_Backend
@@ -62,4 +67,8 @@ Edit,編輯,module,Magento_Braintree
 "Enable Javascript Bundling","啟用 Javascript Bundling",module,Magento_Backend
 "Recovery Link Expiration Period (days)","恢復連結過期期限 （天）",module,Magento_Backend
 "Values less than 60 are ignored.","數值小於 60 的將被忽略。",module,Magento_Backend
+"Watermark Default Size",浮水印預設大小,module,Magento_Catalog
+"Watermark Opacity, Percent",浮水印不透明度百分比,module,Magento_Catalog
+Watermark,浮水印,module,Magento_Catalog
+"Watermark Position",浮水印位置,module,Magento_Catalog
 "Front-end development workflow",前台開發工作流程,module,Magento_Developer
