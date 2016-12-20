@@ -129,6 +129,15 @@ Edit,編輯,module,Magento_Braintree
 "Attribute '%1' is locked. %2","屬性 '%1' 被鎖定。%2",module,Magento_Catalog
 "Are you sure you want to delete this category?",是否確實要刪除此類別？,module,Magento_Catalog
 "Sorry, we're unable to complete this request.",對不起，我們無法完成這個請求。,module,Magento_Catalog
+"Minimum order amount is %1",最小數量是1%,module,Magento_Checkout
+"We can't add this item to your shopping cart right now.",現在無法新增至購物車,module,Magento_Checkout
+"We can't remove the item.",我們不能刪除產品,module,Magento_Checkout
+"We can't update the item right now.",我們現在無法更新,module,Magento_Checkout
+"We can't update the shopping cart.",我們無法更新購物車,module,Magento_Checkout
+"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 不能延伸 \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"We can't find the product.",找不到產品,module,Magento_Checkout
+"Unable to save address. Please, check input data.",無法儲存地址。請檢查輸入資料,module,Magento_Checkout
+"Unable to save shipping information. Please, check input data.",無法儲存寄件資訊。請檢查輸入資料,module,Magento_Checkout
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.",謝謝您和我們聯繫及您的評論和提問。我們很快就會回覆您。,module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.",我們現在無法處理您的請求。對不起，那是我們都知道。,module,Magento_Contact
 "We can't initialize the import model.",我們不能初始化導入模型。,module,Magento_CurrencySymbol
