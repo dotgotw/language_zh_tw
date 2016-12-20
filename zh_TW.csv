@@ -57,6 +57,7 @@ Edit,編輯,module,Magento_Braintree
 "Click here or drag and drop to add images.",請按一下此處或拖放加入圖像。,module,Magento_Catalog
 "This product no longer exists.",此產品不再存在。,module,Magento_Catalog
 "Are you sure you want to delete this category?",是否確實要刪除此類別？,module,Magento_Catalog
+"Minimum order amount is %1",最小數量是1%,module,Magento_Checkout
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
 "Design Theme",設計主題,module,Magento_Backend
 "User-Agent Exceptions",使用者代理例外,module,Magento_Backend
