@@ -1,5 +1,8 @@
+"Read Details",讀取詳細的資訊,module,Magento_AdminNotification
+"Please correct the data sent.",請更正發送的資料。,module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","找不到實體類型模型 '%1'",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.",我們找不到你想要的使用者的角色。,module,Magento_Authorization
+"You created the order.",您建立了訂單。,module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.",我們現在無法處理您的訂單。請稍後再試。,module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.",這筆付款項無效，因為我們找不到此訂單。,module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","發生錯誤 ︰ 已付的金額與訂單額不符。請更正此錯誤，然後重試。",module,Magento_Authorizenet
@@ -8,17 +11,28 @@
 "We can't refresh lifetime statistics.",我們不能更新終生統計。,module,Magento_Backend
 "We can't create a backup right now. Please try again later.",我們現在不能建立一個備份。請稍後再試。,module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.",請確認範圍切換。所有未保存的資料將都會丟失。,module,Magento_Backend
+"System Backup",系統備份,module,Magento_Backup
+"Database Backup",資料庫備份,module,Magento_Backup
 "We can't create the backup right now.",我們現在無法建立備份。,module,Magento_Backup
 "We can't delete one or more backups.",我們不能刪除一個或多個備份。,module,Magento_Backup
 "Can't load snapshot archive",無法載入快照存檔,module,Magento_Backup
 "We can't find the backup file.",我們找不到備份檔案。,module,Magento_Backup
 "We can't connect to the FTP right now.","我們現在無法連接到 FTP。",module,Magento_Backup
 "We can't save the Cron expression.","我們不能儲存 Cron 運算式。",module,Magento_Backup
+Country,國家,module,Magento_Braintree
+"Add Rule",新增規則,module,Magento_Braintree
 "We can't initialize checkout.",我們不能初始化結帳。,module,Magento_Braintree
+"Percent Discount",折扣率,module,Magento_Bundle
 "Requested bundle option product doesn't exist",請求的產品包選項不存在,module,Magento_Bundle
 "Requested option doesn't exist",請求的選項不存在,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.",我們現在不能將此項添加到您的購物車。,module,Magento_Bundle
+"ALL GROUPS",所有群組,module,Magento_CatalogInventory
+"Delete Rule",刪除規則,module,Magento_CatalogRule
+Home,首頁,module,Magento_CatalogSearch
+"Go to Home Page",轉到首頁,module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.",我們找不到任何這些搜尋條件匹配的項目。,module,Magento_CatalogSearch
+"Product Attribute",產品屬性,module,Magento_CatalogWidget
+Root,根,module,Magento_Catalog
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","這是在內部使用。請確保您不使用空格或多過 %1 個符號。",module,Magento_Catalog
 "Can't delete root category.",不能刪除根類別。,module,Magento_Catalog
 "We can't rebuild the index for an undefined product.",我們不能為未定義的產品重建索引。,module,Magento_Catalog
@@ -38,7 +52,25 @@
 "We can't update the shopping cart.",我們無法更新購物車,module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 不能延伸 \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.",找不到產品,module,Magento_Checkout
+"Page not found.",找不到頁面。,module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.",謝謝您和我們聯繫及您的評論和提問。我們很快就會回覆您。,module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.",我們現在無法處理您的請求。對不起，那是我們都知道。,module,Magento_Contact
+Reset,重置,module,Magento_CurrencySymbol
 "We can't initialize the import model.",我們不能初始化導入模型。,module,Magento_CurrencySymbol
+"Sign Out",登出,module,Magento_Customer
+"Sign In",登入,module,Magento_Customer
+State/Province,州/省,module,Magento_Directory
+"Add New Template",新增範本,module,Magento_Email
+"Export Settings",匯出設置,module,Magento_ImportExport
+Country,國家,module,Magento_OfflineShipping
+ID,編號,module,Magento_Paypal
+"Not you?",不是你嗎？,module,Magento_Persistent
+"Invalid store parameter.",無效的存儲參數。,module,Magento_Store
+Country,國家,module,Magento_TaxImportExport
+Back,上一步,module,Magento_Theme
+Back,上一步,module,Magento_User
+Reset,重置,module,Magento_User
+"Add Tax",新增稅項,module,Magento_Weee
+"Delete Tax",刪除稅項,module,Magento_Weee
+"Wish List Sharing",分享願望清單,module,Magento_Wishlist
 "We don't recognize or support this file extension type.",我們無法識別或不支援此檔案類型。,module,Magento_Backend
