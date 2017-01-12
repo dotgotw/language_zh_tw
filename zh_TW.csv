@@ -1,9 +1,15 @@
+"Read Details",讀取詳細的資訊,module,Magento_AdminNotification
 "Close popup",關閉彈出式視窗,module,Magento_AdminNotification
+"You created the order.",您建立了訂單。,module,Magento_Authorizenet
 "Unable to delete store. Please, try again later.",無法刪除商店。請稍後再試。,module,Magento_Backend
 "Unable to delete store view. Please, try again later.",無法刪除店面。請稍後再試。,module,Magento_Backend
 "Unable to delete website. Please, try again later.",無法刪除網站。請稍後再試。,module,Magento_Backend
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版權所有 &copy; %1 Magento Commerce Inc. 保留擁有權利。",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","主題 JavaScript 和 CSS 檔合併到一個檔案。",module,Magento_Backend
+"System Backup",系統備份,module,Magento_Backup
+"Database Backup",資料庫備份,module,Magento_Backup
+Country,國家,module,Magento_Braintree
+"Add Rule",新增規則,module,Magento_Braintree
 "Stored Card",已儲存卡,module,Magento_Braintree
 "Credit card successfully added",信用卡已成功添加,module,Magento_Braintree
 "Delete Credit Card",刪除信用卡,module,Magento_Braintree
@@ -43,7 +49,12 @@ Actions,操作,module,Magento_Braintree
 Yes,是,module,Magento_Braintree
 No,否,module,Magento_Braintree
 Edit,編輯,module,Magento_Braintree
+"Percent Discount",折扣率,module,Magento_Bundle
+"ALL GROUPS",所有群組,module,Magento_CatalogInventory
+Home,首頁,module,Magento_CatalogSearch
+"Go to Home Page",轉到首頁,module,Magento_CatalogSearch
 "Modify your search",修改您的搜索,module,Magento_CatalogSearch
+Root,根,module,Magento_Catalog
 "Save Category",儲存類別,module,Magento_Catalog
 "Delete Category",刪除類別,module,Magento_Catalog
 "New Subcategory",新子類別,module,Magento_Catalog
@@ -58,7 +69,18 @@ Edit,編輯,module,Magento_Braintree
 "This product no longer exists.",此產品不再存在。,module,Magento_Catalog
 "Are you sure you want to delete this category?",是否確實要刪除此類別？,module,Magento_Catalog
 "Minimum order amount is %1",最小數量是1%,module,Magento_Checkout
+Reset,重置,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
+State/Province,州/省,module,Magento_Directory
+"Add New Template",新增範本,module,Magento_Email
+"Export Settings",匯出設置,module,Magento_ImportExport
+Country,國家,module,Magento_OfflineShipping
+ID,編號,module,Magento_Paypal
+Back,上一步,module,Magento_User
+Reset,重置,module,Magento_User
+"Add Tax",新增稅項,module,Magento_Weee
+"Delete Tax",刪除稅項,module,Magento_Weee
+"Wish List Sharing",分享願望清單,module,Magento_Wishlist
 "Design Theme",設計主題,module,Magento_Backend
 "User-Agent Exceptions",使用者代理例外,module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.",在用戶端使用者代理標題中查找字串並切換到該瀏覽器的具體設計主題。,module,Magento_Backend
