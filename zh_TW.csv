@@ -29,6 +29,7 @@
 "We can't connect to the FTP right now.","我們現在無法連接到 FTP。",module,Magento_Backup
 "We can't save the Cron expression.","我們不能儲存 Cron 運算式。",module,Magento_Backup
 Country,國家,module,Magento_Braintree
+"Allowed Credit Card Types",允許的信用卡類型,module,Magento_Braintree
 "Add Rule",新增規則,module,Magento_Braintree
 Month,月份,module,Magento_Braintree
 Year,年份,module,Magento_Braintree
@@ -102,16 +103,23 @@ Yes,是,module,Magento_Braintree
 No,否,module,Magento_Braintree
 Edit,編輯,module,Magento_Braintree
 "Percent Discount",折扣率,module,Magento_Bundle
+"-- Select --",-請選擇-,module,Magento_Bundle
 "Requested bundle option product doesn't exist",請求的產品包選項不存在,module,Magento_Bundle
 "Requested option doesn't exist",請求的選項不存在,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.",我們現在不能將此項添加到您的購物車。,module,Magento_Bundle
+"Incorrect CAPTCHA.",不正確的驗證碼。,module,Magento_Captcha
 "ALL GROUPS",所有群組,module,Magento_CatalogInventory
+"Save and Apply",儲存並套用,module,Magento_CatalogRule
 Home,首頁,module,Magento_CatalogSearch
 "Go to Home Page",轉到首頁,module,Magento_CatalogSearch
+All,全部,module,Magento_CatalogSearch
+Yes,是,module,Magento_CatalogSearch
+No,否,module,Magento_CatalogSearch
 "Bucket do not exists",桶並不存在,module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.",我們找不到任何這些搜尋條件匹配的項目。,module,Magento_CatalogSearch
 "Modify your search",修改您的搜索,module,Magento_CatalogSearch
 "Product Attribute",產品屬性,module,Magento_CatalogWidget
+"Add to Cart",加到購物車,module,Magento_CatalogWidget
 Root,根,module,Magento_Catalog
 "Save Category",儲存類別,module,Magento_Catalog
 "Delete Category",刪除類別,module,Magento_Catalog
@@ -142,6 +150,8 @@ Root,根,module,Magento_Catalog
 "Attribute '%1' is locked. %2","屬性 '%1' 被鎖定。%2",module,Magento_Catalog
 "Are you sure you want to delete this category?",是否確實要刪除此類別？,module,Magento_Catalog
 "Sorry, we're unable to complete this request.",對不起，我們無法完成這個請求。,module,Magento_Catalog
+Country,國家,module,Magento_Checkout
+"Zip/Postal Code",郵政編碼,module,Magento_Checkout
 "Minimum order amount is %1",最小數量是1%,module,Magento_Checkout
 "We can't add this item to your shopping cart right now.",現在無法新增至購物車,module,Magento_Checkout
 "We can't remove the item.",我們不能刪除產品,module,Magento_Checkout
@@ -154,23 +164,57 @@ Root,根,module,Magento_Catalog
 "Page not found.",找不到頁面。,module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.",謝謝您和我們聯繫及您的評論和提問。我們很快就會回覆您。,module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.",我們現在無法處理您的請求。對不起，那是我們都知道。,module,Magento_Contact
+Daily,每天,module,Magento_Cron
+Weekly,每週,module,Magento_Cron
+Monthly,每月,module,Magento_Cron
 Reset,重置,module,Magento_CurrencySymbol
 "We can't initialize the import model.",我們不能初始化導入模型。,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","請更正為 %1 => %2 率輸入的資料",module,Magento_CurrencySymbol
 "Sign Out",登出,module,Magento_Customer
 "Sign In",登入,module,Magento_Customer
+"Address Book",通訊錄,module,Magento_Customer
+Inches,英吋,module,Magento_Dhl
+inch,英吋,module,Magento_Dhl
 State/Province,州/省,module,Magento_Directory
+"--Please Select--",-請選擇-,module,Magento_Directory
+lbs,磅,module,Magento_Directory
+kgs,公斤,module,Magento_Directory
+"Upload Files",上載檔案,module,Magento_Downloadable
+"All Files",所有檔案,module,Magento_Downloadable
 "Add New Template",新增範本,module,Magento_Email
+Back,上一步,module,Magento_Email
+"Encryption Key",加密金鑰,module,Magento_EncryptionKey
+No,否,module,Magento_EncryptionKey
+"1 Day Freight","1 天貨運",module,Magento_Fedex
 "Export Settings",匯出設置,module,Magento_ImportExport
+Save,儲存,module,Magento_Integration
+No,否,module,Magento_LayeredNavigation
+Total,總計,module,Magento_Multishipping
+Back,上一步,module,Magento_Newsletter
 Country,國家,module,Magento_OfflineShipping
+"Shipping Price",運費,module,Magento_OfflineShipping
+"Export CSV","匯出 CSV",module,Magento_OfflineShipping
 ID,編號,module,Magento_Paypal
 "Not you?",不是你嗎？,module,Magento_Persistent
+"Welcome, %1!","歡迎您，%1 ！",module,Magento_Persistent
+Product,產品,module,Magento_Review
+"Page not found.",找不到頁面。,module,Magento_Rss
+"Page not found.",找不到頁面。,module,Magento_SendFriend
+Filename,檔案名稱,module,Magento_Sitemap
 Country,國家,module,Magento_TaxImportExport
+"Zip/Post Code",郵政編碼,module,Magento_TaxImportExport
+"Zip/Post Code",郵政編碼,module,Magento_Tax
+"UPS Next Day Air","UPS 次日空運送到",module,Magento_Ups
+"UPS Worldwide Express","UPS 全球速遞",module,Magento_Ups
 Back,上一步,module,Magento_User
 Reset,重置,module,Magento_User
 "Add Tax",新增稅項,module,Magento_Weee
 "Delete Tax",刪除稅項,module,Magento_Weee
+"All Websites",所有網站,module,Magento_Weee
+Close,關閉,module,Magento_Widget
+"Wish List",願望清單,module,Magento_Wishlist
 "Wish List Sharing",分享願望清單,module,Magento_Wishlist
+"My Wish List",我的願望清單,module,Magento_Wishlist
 "We don't recognize or support this file extension type.",我們無法識別或不支援此檔案類型。,module,Magento_Backend
 Ok,確定,module,Magento_Catalog
 "Design Theme",設計主題,module,Magento_Backend
@@ -188,3 +232,4 @@ Ok,確定,module,Magento_Catalog
 Watermark,浮水印,module,Magento_Catalog
 "Watermark Position",浮水印位置,module,Magento_Catalog
 "Front-end development workflow",前台開發工作流程,module,Magento_Developer
+"Address Book",通訊錄,theme,frontend/Magento/blank
