@@ -23,6 +23,8 @@ Country,國家,module,Magento_Braintree
 "Allowed Credit Card Types",允許的信用卡類型,module,Magento_Braintree
 "Add Rule",新增規則,module,Magento_Braintree
 "We can't initialize checkout.",我們不能初始化結帳。,module,Magento_Braintree
+Actions,操作,module,Magento_Braintree
+Delete,删除,module,Magento_Braintree
 "Percent Discount",折扣率,module,Magento_Bundle
 "-- Select --",-請選擇-,module,Magento_Bundle
 "Requested bundle option product doesn't exist",請求的產品包選項不存在,module,Magento_Bundle
@@ -48,7 +50,6 @@ Root,根,module,Magento_Catalog
 "Such product doesn't exist",這種產品並不存在,module,Magento_Catalog
 "Such image doesn't exist",這種圖像並不存在,module,Magento_Catalog
 "We couldn't move this file: %1.",我們不能移動這個檔案：%1。,module,Magento_Catalog
-"We can't find the image file.",我們找不到該圖片檔案。,module,Magento_Catalog
 "Please specify product's required option(s).",請指定產品必需的選項。,module,Magento_Catalog
 "File '%1' is not an image.","檔案 '%1' 不是圖片。",module,Magento_Catalog
 "Requested product doesn't exist",要求的產品並不存在,module,Magento_Catalog
