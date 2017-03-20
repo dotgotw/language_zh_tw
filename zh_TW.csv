@@ -109,7 +109,27 @@ Edit,編輯,module,Magento_Braintree
 "We can't add this item to your shopping cart right now.",我們現在不能將此項添加到您的購物車。,module,Magento_Bundle
 "Incorrect CAPTCHA.",不正確的驗證碼。,module,Magento_Captcha
 "ALL GROUPS",所有群組,module,Magento_CatalogInventory
+"Catalog Price Rule",目錄價格規則,module,Magento_CatalogRule
+"Add New Rule",添加新規則,module,Magento_CatalogRule
+"Apply Rules",應用規則,module,Magento_CatalogRule
 "Save and Apply",儲存並套用,module,Magento_CatalogRule
+"Save and Continue Edit",保存並繼續編輯,module,Magento_CatalogRule
+"New Rule",新規則,module,Magento_CatalogRule
+Conditions,條件,module,Magento_CatalogRule
+Type,類別,module,Magento_CatalogRule
+"Attribute Set",屬性集,module,Magento_CatalogRule
+SKU,商品編號,module,Magento_CatalogRule
+Product,商品,module,Magento_CatalogRule
+Promotions,促銷,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","我們發現不適用的更新的規則。請按一下""應用規則""來更新您的目錄。",module,Magento_CatalogRule
+"You deleted the rule.",您刪除該規則。,module,Magento_CatalogRule
+"This rule no longer exists.",此規則不再存在。,module,Magento_CatalogRule
+"New Catalog Price Rule",新目錄價格規則,module,Magento_CatalogRule
+"Edit Rule",編輯規則,module,Magento_CatalogRule
+Catalog,目錄,module,Magento_CatalogRule
+"You saved the rule.",你保存的規則。,module,Magento_CatalogRule
+"Something went wrong while saving the rule data. Please review the error log.",保存規則資料時出了錯。請查看錯誤日誌。,module,Magento_CatalogRule
+Promo,促銷,module,Magento_CatalogRule
 Home,首頁,module,Magento_CatalogSearch
 "Go to Home Page",轉到首頁,module,Magento_CatalogSearch
 All,全部,module,Magento_CatalogSearch
