@@ -38,6 +38,8 @@ Close,關閉,module,Magento_AdminNotification
 "See All (",顯示全部（,module,Magento_AdminNotification
 "Please correct the data sent.",請更正發送的資料。,module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","找不到實體類型模型 '%1'",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","實體類型必須屬於 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType 裡的其中一個類型",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export",無產品類型可輸出,module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.",我們找不到你想要的使用者的角色。,module,Magento_Authorization
 "You created the order.",您建立了訂單。,module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.",我們現在無法處理您的訂單。請稍後再試。,module,Magento_Authorizenet
@@ -192,6 +194,7 @@ Submit,提交,module,Magento_Backend
 "You flushed the cache storage.",你已清空緩存記憶。,module,Magento_Backend
 "The Magento cache storage has been flushed.",已清空Magento緩存記憶。,module,Magento_Backend
 "Cache Management",緩存管理,module,Magento_Backend
+"%1 cache type(s) disabled.","%1 種緩存類型已被停用。",module,Magento_Backend
 "We can't refresh lifetime statistics.",我們不能更新終生統計。,module,Magento_Backend
 "You have entered an invalid password for current user.",您為現使用者輸入的密碼無效。,module,Magento_Backend
 "We can't create a backup right now. Please try again later.",我們現在不能建立一個備份。請稍後再試。,module,Magento_Backend
