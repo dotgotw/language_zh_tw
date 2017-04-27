@@ -173,6 +173,7 @@ Submit,提交,module,Magento_Backend
 "You flushed the cache storage.",你已清空緩存記憶。,module,Magento_Backend
 "The Magento cache storage has been flushed.",已清空Magento緩存記憶。,module,Magento_Backend
 "Cache Management",緩存管理,module,Magento_Backend
+"%1 cache type(s) disabled.","%1 種緩存類型已被停用。",module,Magento_Backend
 "Unable to delete store. Please, try again later.",無法刪除商店。請稍後再試。,module,Magento_Backend
 "Unable to delete store view. Please, try again later.",無法刪除店面。請稍後再試。,module,Magento_Backend
 "Unable to delete website. Please, try again later.",無法刪除網站。請稍後再試。,module,Magento_Backend
