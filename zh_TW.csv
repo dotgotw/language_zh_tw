@@ -195,9 +195,46 @@ Submit,提交,module,Magento_Backend
 "The Magento cache storage has been flushed.",已清空Magento緩存記憶。,module,Magento_Backend
 "Cache Management",緩存管理,module,Magento_Backend
 "%1 cache type(s) disabled.","%1 種緩存類型已被停用。",module,Magento_Backend
+"An error occurred while disabling cache.",停用緩存時出錯。,module,Magento_Backend
+"%1 cache type(s) enabled.","已啟用 %1 個緩存類型。",module,Magento_Backend
+"An error occurred while enabling cache.",啟用緩存時出錯。,module,Magento_Backend
+"%1 cache type(s) refreshed.","已刷新 %1 個緩存類型。",module,Magento_Backend
+"An error occurred while refreshing cache.",刷新緩存時出錯。,module,Magento_Backend
+Dashboard,總覽,module,Magento_Backend
 "We can't refresh lifetime statistics.",我們不能更新終生統計。,module,Magento_Backend
+"invalid request",無效的請求,module,Magento_Backend
+"see error log for details",詳請參閱錯誤日誌,module,Magento_Backend
+Error,錯誤,module,Magento_Backend
+"Access Denied.",存取被拒。,module,Magento_Backend
+"You saved the account.",你已儲存此帳戶。,module,Magento_Backend
+"An error occurred while saving account.",儲存帳戶時出錯。,module,Magento_Backend
+"You deleted the design change.",你已刪除此設計編輯。,module,Magento_Backend
+"You can't delete the design change.",您不能刪除此設計編輯。,module,Magento_Backend
+"Store Design",商店設計,module,Magento_Backend
+"Edit Store Design Change",儲存商店設計編輯,module,Magento_Backend
+"You saved the design change.",你已儲存設計編輯。,module,Magento_Backend
+System,系統,module,Magento_Backend
+"Manage Stores",管理商店,module,Magento_Backend
+"The database was backed up.",資料庫已備份。,module,Magento_Backend
 "We can't create a backup right now. Please try again later.",我們現在不能建立一個備份。請稍後再試。,module,Magento_Backend
+"This store cannot be deleted.",不能刪除此商店。,module,Magento_Backend
+"You deleted the store.",你已刪除此商店。,module,Magento_Backend
+"Unable to delete the store. Please try again later.",無法刪除商店，請稍後再試。,module,Magento_Backend
+"This store view cannot be deleted.",不能刪除此店面。,module,Magento_Backend
+"Store View",店面,module,Magento_Backend
+"You deleted the store view.",你已刪除此店面。,module,Magento_Backend
+"Unable to delete the store view. Please try again later.",無法刪除店面，請稍後再試。,module,Magento_Backend
+"This website cannot be deleted.",不能刪除此網站。,module,Magento_Backend
+"You deleted the website.",你已刪除此網站。,module,Magento_Backend
+"Unable to delete the website. Please try again later.",無法刪除網站，請稍後再試。,module,Magento_Backend
+"The website does not exist.",網站不存在。,module,Magento_Backend
+"Before modifying the website code please make sure it is not used in index.php.","修改網站代碼前請確保它不用在 index.php 中。",module,Magento_Backend
+"The store does not exist",商店不存在,module,Magento_Backend
+"Store view doesn't exist",店面不存在,module,Magento_Backend
+"You saved the website.",你已儲存網站。,module,Magento_Backend
 "You saved the store.",你已儲存了商店。,module,Magento_Backend
+"The default store cannot be disabled",預設商店不能被停用,module,Magento_Backend
+"You saved the store view.",您已儲存店面。,module,Magento_Backend
 "Something went wrong while saving. Please review the error log.",儲存時出錯，請查看錯誤日誌。,module,Magento_Backend
 "Last 24 Hours","最近 24 小時",module,Magento_Backend
 "Last 7 Days","最近 7 天",module,Magento_Backend
@@ -404,6 +441,7 @@ Severity,嚴重程度,module,Magento_AdminNotification
 Message,訊息,module,Magento_AdminNotification
 Actions,動作,module,Magento_AdminNotification
 Settings,設定,module,Magento_Backend
+"All Stores",所有商店,module,Magento_Backend
 Attributes,屬性,module,Magento_Backend
 "Other Settings",其他設定,module,Magento_Backend
 "Data Transfer",檔案傳輸,module,Magento_Backend
