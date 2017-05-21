@@ -41,11 +41,32 @@ Close,關閉,module,Magento_AdminNotification
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","實體類型必須屬於 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType 裡的其中一個類型",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export",無產品類型可輸出,module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.",我們找不到你想要的使用者的角色。,module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",編譯允許的資源列表時出錯。您可以在例外日誌中找到更多內容。,module,Magento_Authorization
 "You created the order.",您建立了訂單。,module,Magento_Authorizenet
+"Please choose a payment method.",請選擇您的付款方式。,module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.",我們現在無法處理您的訂單。請稍後再試。,module,Magento_Authorizenet
 "Cannot place order.",不能下訂單。,module,Magento_Authorizenet
+"Credit Card: xxxx-%1","信用卡︰ xxxx-%1",module,Magento_Authorizenet
+failed.,失敗。,module,Magento_Authorizenet
+successful.,成功。,module,Magento_Authorizenet
+authorize,授權,module,Magento_Authorizenet
+"authorize and capture",授權和提取,module,Magento_Authorizenet
+capture,提取,module,Magento_Authorizenet
+refund,退款,module,Magento_Authorizenet
+void,無效,module,Magento_Authorizenet
+"Invalid amount for capture.",提取的金額無效。,module,Magento_Authorizenet
+"Payment capturing error.",提取付款時出現錯誤。,module,Magento_Authorizenet
+"Invalid transaction ID.",無效的交易號碼,module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.",這筆付款項無效，因為我們找不到此訂單。,module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.",請輸入要授權付款的交易編號。,module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","發生錯誤 ︰ 已付的金額與訂單額不符。請更正此錯誤，然後重試。",module,Magento_Authorizenet
+"Authorize Only",僅授權,module,Magento_Authorizenet
+"Authorize and Capture",授權和提取,module,Magento_Authorizenet
+"Unable to get transaction details. Try again later.",無法獲取交易記錄詳細資訊。稍後再試。,module,Magento_Authorizenet
+"Credit Card Type",信用卡類型,module,Magento_Authorizenet
+"Credit Card Number",信用卡卡號,module,Magento_Authorizenet
+"Expiration Date",到期日期,module,Magento_Authorizenet
+"Card Verification Number",信用卡驗證號碼,module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.",無效表單金鑰，請刷新頁面。,module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.",輸入的金鑰不正確，請刷新此頁面。,module,Magento_Backend
 "Cache Storage Management",緩存記憶管理,module,Magento_Backend
@@ -290,13 +311,65 @@ Minute,分,module,Magento_Backend
 "Flush JavaScript/CSS Cache","清空 JavaScript/CSS 緩存",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","主題 JavaScript 和 CSS 檔合併到一個檔案。",module,Magento_Backend
 "System Backup",系統備份,module,Magento_Backup
+"Database and Media Backup",資料庫和媒體備份,module,Magento_Backup
 "Database Backup",資料庫備份,module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","可以在Windows系統上使用<a href=""%1"">％2 </a>解壓縮歸檔。",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.",你現在需要更多的權限來啟動維護模式。,module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","若要創建備份，請取消選擇""置於維護模式存儲""，或更新您的權限。",module,Magento_Backup
+"Something went wrong while putting your store into maintenance mode.",將商店置於維護模式時出錯。,module,Magento_Backup
+"You need more free space to create a backup.",你需要更多的可用空間來創建備份。,module,Magento_Backup
+"You need more permissions to create a backup.",你需要更多的權限來創建一個備份。,module,Magento_Backup
 "We can't create the backup right now.",我們現在無法建立備份。,module,Magento_Backup
+Backups,備份,module,Magento_Backup
+System,系統,module,Magento_Backup
+Tools,工具,module,Magento_Backup
+Backup,備份,module,Magento_Backup
 "We can't delete one or more backups.",我們不能刪除一個或多個備份。,module,Magento_Backup
+failed,失敗,module,Magento_Backup
+successful,成功。,module,Magento_Backup
+"You deleted the selected backup(s).",刪除所選的備份。,module,Magento_Backup
 "Can't load snapshot archive",無法載入快照存檔,module,Magento_Backup
+"Please correct the password.",請更正密碼。,module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.",要完成回滾，請取消“將商店置於維護模式”或更新您的權限。,module,Magento_Backup
 "We can't find the backup file.",我們找不到備份檔案。,module,Magento_Backup
 "We can't connect to the FTP right now.","我們現在無法連接到 FTP。",module,Magento_Backup
+"Failed to validate FTP.","驗證 FTP 失敗。",module,Magento_Backup
+"You need more permissions to perform a rollback.",您需要更多權限才能執行回滾。,module,Magento_Backup
+"Failed to rollback.",無法回滾。,module,Magento_Backup
+Database,資料庫,module,Magento_Backup
+"Database and Media",資料庫和媒體,module,Magento_Backup
+"System (excluding Media)","系統 （不含媒體）",module,Magento_Backup
+"You created the system backup.",您創建了系統備份。,module,Magento_Backup
+"You created the system backup (excluding media).","你創建了系統備份 （不包括媒體）。",module,Magento_Backup
+"You created the database and media backup.",您創建了資料庫和媒體備份。,module,Magento_Backup
+"You created the database backup.",您創建了資料庫備份。,module,Magento_Backup
+"Please correct the order of creation for a new backup.",請更正新備份的創建順序。,module,Magento_Backup
+"The backup file does not exist.",備份檔案不存在。,module,Magento_Backup
+"The backup file path was not specified.",未指定備份文件路徑。,module,Magento_Backup
+"The backup file ""%1"" does not exist.","備份檔案""%1""不存在。",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","抱歉，我們不能讀取或寫入備份文件""%1""。",module,Magento_Backup
+"The backup file handler was unspecified.",備份文件處理程序未指定。,module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".",寫入備份文件“%1”時發生錯誤。,module,Magento_Backup
 "We can't save the Cron expression.","我們不能儲存 Cron 運算式。",module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.",您將丟失備份後創建的任何數據，包括管理員用戶，客戶和訂單。,module,Magento_Backup
+"Are you sure you want to continue?",你確定要繼續嗎？,module,Magento_Backup
+"This may take a few moments.",這可能需要幾分鐘。,module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.",在備份期間，請確保您的商店處於維護模式。,module,Magento_Backup
+"Backup Name",備份名稱,module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","請在此欄位中使用字母 （a 到 z 或 A 到 Z），數位 (0-9) 或空格。",module,Magento_Backup
+"Maintenance mode",維護模式,module,Magento_Backup
+"Please put your store into maintenance mode during backup.",請在備份期間將您的商店置於維護模式。,module,Magento_Backup
+"Exclude media folder from backup",從備份中排除媒體檔案夾,module,Magento_Backup
+"Please enter the password to confirm rollback.",請輸入密碼以確認回滾。,module,Magento_Backup
+"This action cannot be undone.",此動作無法復原。,module,Magento_Backup
+"User Password",使用者密碼,module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.",請在回滾處理過程中，把您的商店進入維護模式。,module,Magento_Backup
+"Use FTP Connection","使用 FTP 連接",module,Magento_Backup
+"FTP credentials","FTP 憑據",module,Magento_Backup
+"FTP Host","FTP 主機",module,Magento_Backup
+"FTP Login","FTP 登錄名",module,Magento_Backup
+"FTP Password","FTP 密碼",module,Magento_Backup
+"Create Backup",創建備份,module,Magento_Backup
 Country,國家,module,Magento_Braintree
 "Allowed Credit Card Types",允許的信用卡類型,module,Magento_Braintree
 "Add Rule",新增規則,module,Magento_Braintree
@@ -513,6 +586,17 @@ Severity,嚴重程度,module,Magento_AdminNotification
 "Date Added",新增日期,module,Magento_AdminNotification
 Message,訊息,module,Magento_AdminNotification
 Actions,動作,module,Magento_AdminNotification
+Title,標題,module,Magento_Authorizenet
+"API Login ID","API 的登入識別碼",module,Magento_Authorizenet
+"New Order Status",新訂單狀態,module,Magento_Authorizenet
+"Test Mode",測試模式,module,Magento_Authorizenet
+"Transaction Details URL","交易明細 URL",module,Magento_Authorizenet
+"Accepted Currency",接受的貨幣,module,Magento_Authorizenet
+Debug,除錯,module,Magento_Authorizenet
+"Merchant's Email",商戶的電子郵件,module,Magento_Authorizenet
+"Credit Card Types",信用卡類型,module,Magento_Authorizenet
+"Credit Card Verification",信用卡驗證,module,Magento_Authorizenet
+"Minimum Order Total",最小訂單總數,module,Magento_Authorizenet
 Services,服務,module,Magento_Backend
 Advanced,進階,module,Magento_Backend
 "Disable Modules Output",停用模組輸出,module,Magento_Backend
@@ -624,6 +708,19 @@ Description,描述,module,Magento_Backend
 Tags,標籤,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 錯誤</h1><p>找不到頁面。</p>",module,Magento_Backend
 "Community Edition",社區版,module,Magento_Backend
+"Scheduled Backup Settings",計劃備份設置,module,Magento_Backup
+"Enable Scheduled Backup",啟用預設備份,module,Magento_Backup
+"Backup Type",備份類型,module,Magento_Backup
+"Start Time",開始時間,module,Magento_Backup
+"Maintenance Mode",維護模式,module,Magento_Backup
+Delete,刪除,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?",確實要刪除所選的備份嗎？,module,Magento_Backup
+Time,時間,module,Magento_Backup
+Name,名稱,module,Magento_Backup
+Size(bytes),"大小 （bytes)",module,Magento_Backup
+Type,類別,module,Magento_Backup
+Download,下載,module,Magento_Backup
+Action,操作,module,Magento_Backup
 "Custom image",自訂圖片,module,Magento_Catalog
 "Watermark Default Size",浮水印預設大小,module,Magento_Catalog
 "Watermark Opacity, Percent",浮水印不透明度百分比,module,Magento_Catalog
