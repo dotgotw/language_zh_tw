@@ -44,11 +44,15 @@ Close,關閉,module,Magento_AdminNotification
 "We can't find the role for the user you wanted.",我們找不到你想要的使用者的角色。,module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",編譯允許的資源列表時出錯。您可以在例外日誌中找到更多內容。,module,Magento_Authorization
 "You created the order.",您建立了訂單。,module,Magento_Authorizenet
+"Order saving error: %1",訂單保存錯誤：%1,module,Magento_Authorizenet
 "Please choose a payment method.",請選擇您的付款方式。,module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.",我們現在無法處理您的訂單。請稍後再試。,module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.",伺服器出現錯誤。請再次確認訂單。,module,Magento_Authorizenet
 "Credit Card: xxxx-%1","信用卡︰ xxxx-%1",module,Magento_Authorizenet
+"amount %1","金額 %1",module,Magento_Authorizenet
 failed.,失敗。,module,Magento_Authorizenet
 successful.,成功。,module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net 交易記錄 ID %1。",module,Magento_Authorizenet
 authorize,授權,module,Magento_Authorizenet
 "authorize and capture",授權和提取,module,Magento_Authorizenet
 capture,提取,module,Magento_Authorizenet
@@ -57,9 +61,13 @@ void,無效,module,Magento_Authorizenet
 "Invalid amount for capture.",提取的金額無效。,module,Magento_Authorizenet
 "Payment capturing error.",提取付款時出現錯誤。,module,Magento_Authorizenet
 "Invalid transaction ID.",無效的交易號碼,module,Magento_Authorizenet
+"Invalid amount for refund.",退款金額無效。,module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.",這筆付款項無效，因為我們找不到此訂單。,module,Magento_Authorizenet
+"There was a payment authorization error.",出現了一個付款授權錯誤。,module,Magento_Authorizenet
 "Please enter a transaction ID to authorize this payment.",請輸入要授權付款的交易編號。,module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","發生錯誤 ︰ 已付的金額與訂單額不符。請更正此錯誤，然後重試。",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","交易%1已獲得批准。 金額%2。 交易狀態為“%3”",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","交易%1無效/被拒絕。 交易狀態為“%2”。 金額%3。",module,Magento_Authorizenet
 "Authorize Only",僅授權,module,Magento_Authorizenet
 "Authorize and Capture",授權和提取,module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.",無法獲取交易記錄詳細資訊。稍後再試。,module,Magento_Authorizenet
@@ -67,6 +75,10 @@ void,無效,module,Magento_Authorizenet
 "Credit Card Number",信用卡卡號,module,Magento_Authorizenet
 "Expiration Date",到期日期,module,Magento_Authorizenet
 "Card Verification Number",信用卡驗證號碼,module,Magento_Authorizenet
+"FDS Filter Action","FDS 篩選器操作",module,Magento_Authorizenet
+"Card Code Response",卡代碼回應,module,Magento_Authorizenet
+"CAVV Response","CAVV 回應",module,Magento_Authorizenet
+"Fraud Filters",欺詐行為篩檢程式,module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.",無效表單金鑰，請刷新頁面。,module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.",輸入的金鑰不正確，請刷新此頁面。,module,Magento_Backend
 "Cache Storage Management",緩存記憶管理,module,Magento_Backend
@@ -82,6 +94,7 @@ Bestsellers,暢銷產品,module,Magento_Backend
 Customers,客戶,module,Magento_Backend
 Customer,客戶,module,Magento_Backend
 Guest,訪客,module,Magento_Backend
+Items,項目,module,Magento_Backend
 Total,合計,module,Magento_Backend
 "Lifetime Sales",累計銷售,module,Magento_Backend
 "Average Order",平均訂單量,module,Magento_Backend
@@ -222,11 +235,16 @@ Submit,提交,module,Magento_Backend
 "%1 cache type(s) refreshed.","已刷新 %1 個緩存類型。",module,Magento_Backend
 "An error occurred while refreshing cache.",刷新緩存時出錯。,module,Magento_Backend
 Dashboard,總覽,module,Magento_Backend
+"We updated lifetime statistic.",我們更新了壽命統計。,module,Magento_Backend
 "We can't refresh lifetime statistics.",我們不能更新終生統計。,module,Magento_Backend
 "invalid request",無效的請求,module,Magento_Backend
 "see error log for details",詳請參閱錯誤日誌,module,Magento_Backend
+"Service unavailable: %1","服務不可用︰ %1",module,Magento_Backend
 Error,錯誤,module,Magento_Backend
 "Access Denied.",存取被拒。,module,Magento_Backend
+"You need more permissions to do this.",你需要更多的權限權來執行此操作。,module,Magento_Backend
+"No search modules were registered",沒有註冊搜索模塊,module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.",請確保所有的全域管理員搜索模組已安裝並啟動。,module,Magento_Backend
 "You saved the account.",你已儲存此帳戶。,module,Magento_Backend
 "An error occurred while saving account.",儲存帳戶時出錯。,module,Magento_Backend
 "You deleted the design change.",你已刪除此設計編輯。,module,Magento_Backend
@@ -238,6 +256,8 @@ System,系統,module,Magento_Backend
 "Manage Stores",管理商店,module,Magento_Backend
 "The database was backed up.",資料庫已備份。,module,Magento_Backend
 "We can't create a backup right now. Please try again later.",我們現在不能建立一個備份。請稍後再試。,module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","刪除%1並不會刪除與%1相關聯的信息（例如類別，產品等），但%1將無法恢復。 建議您在刪除%1之前創建資料庫備份。",module,Magento_Backend
+"Something went wrong. Please try again.",出了錯。請再試一次。,module,Magento_Backend
 "This store cannot be deleted.",不能刪除此商店。,module,Magento_Backend
 "You deleted the store.",你已刪除此商店。,module,Magento_Backend
 "Unable to delete the store. Please try again later.",無法刪除商店，請稍後再試。,module,Magento_Backend
@@ -252,7 +272,9 @@ System,系統,module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","修改網站代碼前請確保它不用在 index.php 中。",module,Magento_Backend
 "The store does not exist",商店不存在,module,Magento_Backend
 "Store view doesn't exist",店面不存在,module,Magento_Backend
+"Before modifying the store view code please make sure it is not used in index.php.","修改店面代碼前請確保它不用在 index.php 中。",module,Magento_Backend
 "You saved the website.",你已儲存網站。,module,Magento_Backend
+"An inactive store view cannot be saved as default store view",處於非活動狀態店面不能保存為預設店面,module,Magento_Backend
 "You saved the store.",你已儲存了商店。,module,Magento_Backend
 "The default store cannot be disabled",預設商店不能被停用,module,Magento_Backend
 "You saved the store view.",您已儲存店面。,module,Magento_Backend
@@ -298,6 +320,7 @@ password,密碼,module,Magento_Backend
 "Sign Out",登出,module,Magento_Backend
 "About the calendar",關於日曆,module,Magento_Backend
 Close,關閉,module,Magento_Backend
+"Go Today",今天去,module,Magento_Backend
 Previous,上一頁,module,Magento_Backend
 Next,下一頁,module,Magento_Backend
 Time,時間,module,Magento_Backend
@@ -313,6 +336,32 @@ Minute,分,module,Magento_Backend
 "Flush Catalog Images Cache",清空產品圖片緩存,module,Magento_Backend
 "Pregenerated product images files",預先生成的產品圖片,module,Magento_Backend
 "Flush JavaScript/CSS Cache","清空 JavaScript/CSS 緩存",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file","主題 JavaScript 和 CSS 檔合併到一個檔案。",module,Magento_Backend
+"Flush Static Files Cache",沖洗靜態檔案快取,module,Magento_Backend
+"Preprocessed view files and static files",預先處理的視圖檔和靜態檔,module,Magento_Backend
+Catalog,目錄,module,Magento_Backend
+JavaScript/CSS,"JavaScript 和 CSS",module,Magento_Backend
+"JavaScript/CSS Cache","JavaScript 和 CSS 緩存",module,Magento_Backend
+"No records found.",找不到記錄。,module,Magento_Backend
+Images,圖片,module,Magento_Backend
+"Big Image",大圖像,module,Magento_Backend
+Thumbnail,縮圖,module,Magento_Backend
+"Additional Settings",附加設置,module,Magento_Backend
+"records found",找到的記錄,module,Magento_Backend
+selected,已選的,module,Magento_Backend
+"per page",每頁,module,Magento_Backend
+"Previous page",上一頁,module,Magento_Backend
+"of %1",%1的,module,Magento_Backend
+"Next page",下一頁,module,Magento_Backend
+"Export to:",匯出至,module,Magento_Backend
+Actions,操作,module,Magento_Backend
+"Unselect All",全部取消選擇,module,Magento_Backend
+"Select Visible",選擇可見,module,Magento_Backend
+"Unselect Visible",取消選擇可見,module,Magento_Backend
+"Changes have been made to this section that have not been saved.",對本節進行的修改尚未保存。,module,Magento_Backend
+"This tab contains invalid data. Please resolve this before saving.","此選項卡包含無效數據。 保存前請解決此問題。",module,Magento_Backend
+"The information in this tab has been changed.",此選項卡中的資訊已更改。,module,Magento_Backend
+Loading...,載入中...,module,Magento_Backend
 "System Backup",系統備份,module,Magento_Backup
 "Database and Media Backup",資料庫和媒體備份,module,Magento_Backup
 "Database Backup",資料庫備份,module,Magento_Backup
@@ -376,15 +425,126 @@ Database,資料庫,module,Magento_Backup
 Country,國家,module,Magento_Braintree
 "Allowed Credit Card Types",允許的信用卡類型,module,Magento_Braintree
 "Add Rule",新增規則,module,Magento_Braintree
+"Braintree Settlement Report","Braintree 結算報告",module,Magento_Braintree
+"Sorry, but something went wrong",對不起，出了問題。,module,Magento_Braintree
 "We can't initialize checkout.",我們不能初始化結帳。,module,Magento_Braintree
+"No authorization transaction to proceed capture.",沒有已授權交易來進行提取。,module,Magento_Braintree
+"Braintree error response.","Braintree 回應錯誤。",module,Magento_Braintree
+"Payment method nonce can't be retrieved.",付款方式無法檢索。,module,Magento_Braintree
+"Wrong transaction status",錯誤的交易狀態,module,Magento_Braintree
+Authorize,授權,module,Magento_Braintree
+"Authorize and Capture",授權和提取,module,Magento_Braintree
+"--Please Select--",-請選擇-,module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.",請在提交訂單之前同意所有條款及條件。,module,Magento_Braintree
+"Credit Card Type",信用卡類型,module,Magento_Braintree
+"Credit Card Number",信用卡卡號,module,Magento_Braintree
+"Please, enter valid Credit Card Number",請輸入有效的信用卡號碼,module,Magento_Braintree
+"Expiration Date",到期日期,module,Magento_Braintree
+"Please, enter valid Expiration Date",請輸入有效的到期日期,module,Magento_Braintree
+"Card Verification Number",信用卡驗證號碼,module,Magento_Braintree
+"Please, enter valid Card Verification Number",請輸入有效的信用卡驗證號碼,module,Magento_Braintree
+ending,結束,module,Magento_Braintree
+expires,到期,module,Magento_Braintree
+"PayPal Account","PayPal 帳戶",module,Magento_Braintree
+"PayPal Logo","PayPal 商標",module,Magento_Braintree
 Actions,操作,module,Magento_Braintree
 Delete,删除,module,Magento_Braintree
 "Percent Discount",折扣率,module,Magento_Bundle
 "-- Select --",-請選擇-,module,Magento_Bundle
+Dynamic,動態,module,Magento_Bundle
+Fixed,已修復,module,Magento_Bundle
+"Create New Option",創建新的選項,module,Magento_Bundle
+"Bundle Items",捆綁項目,module,Magento_Bundle
+"Add Products to Option",添加產品到選項,module,Magento_Bundle
+Close,關閉,module,Magento_Bundle
+"Delete Option",刪除選項,module,Magento_Bundle
+"What are you looking for?",你在找什麼？,module,Magento_Bundle
+ID,編號,module,Magento_Bundle
+Product,商品,module,Magento_Bundle
+SKU,商品編號,module,Magento_Bundle
+Price,價格,module,Magento_Bundle
+Delete,刪除,module,Magento_Bundle
+"Use Default Value",使用預設值,module,Magento_Bundle
+"Only implemented for bundle product",僅用於捆綁產品,module,Magento_Bundle
+"Bundle product could not contain another composite product",捆綁產品不能包含另一個複合產品,module,Magento_Bundle
+"Id field of product link is required","產品連結的 id 欄位是必需的",module,Magento_Bundle
+"Can not find product link with id ""%1""","找不到 id 為""%1""產品連結",module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""","產品與指定商品編號:""%1""不包含選項:""%2""",module,Magento_Bundle
+"Product with specified sku: %1 is not a bundle product","產品與指定商品編號: %1 不是捆綁產品",module,Magento_Bundle
 "Requested bundle option product doesn't exist",請求的產品包選項不存在,module,Magento_Bundle
+"%fieldName is a required field.","%fieldName 是必填的欄位。",module,Magento_Bundle
 "Requested option doesn't exist",請求的選項不存在,module,Magento_Bundle
+"Could not save option",不能保存選項,module,Magento_Bundle
+"Price Range",價格範圍,module,Magento_Bundle
+"As Low as",低至,module,Magento_Bundle
+Together,一起,module,Magento_Bundle
+Separately,分開,module,Magento_Bundle
+"Please specify product option(s).",請指定產品選項。,module,Magento_Bundle
+"The options you selected are not available.",您選擇的選項不可用。,module,Magento_Bundle
+"The required options you selected are not available.",您選擇的必要選項不可用。,module,Magento_Bundle
+"Please select all required options.",請選擇所有必要的選項。,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.",我們現在不能將此項添加到您的購物車。,module,Magento_Bundle
+N/A,不適用,module,Magento_Bundle
+Percent,%,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.",我們無法在自定義選項中保存具有動態定價的捆綁包。,module,Magento_Bundle
+Cancel,取消,module,Magento_Bundle
+"Add Selected Products",添加所選的產品,module,Magento_Bundle
+"Add Option",新增選項,module,Magento_Bundle
+"New Option",新的選項,module,Magento_Bundle
+"Option Title",選項標題,module,Magento_Bundle
+"Default Title",預設標題,module,Magento_Bundle
+"Input Type",輸入類型,module,Magento_Bundle
+Drop-down,下拉,module,Magento_Bundle
+"Radio Buttons",單選按鈕,module,Magento_Bundle
+Checkbox,選取方塊,module,Magento_Bundle
+"Multiple Select",選擇多個,module,Magento_Bundle
+Required,必要,module,Magento_Bundle
+"Is Default",是預設,module,Magento_Bundle
+Name,名稱,module,Magento_Bundle
+"Default Quantity",預設數量,module,Magento_Bundle
+"User Defined",使用者定義,module,Magento_Bundle
+"Price Type",價格類型,module,Magento_Bundle
+None,無,module,Magento_Bundle
+Quantity:,數量︰,module,Magento_Bundle
+"Choose a selection...",選擇一個選項。,module,Magento_Bundle
+"Ship Bundle Items",寄送捆綁項目,module,Magento_Bundle
+Position,位置,module,Magento_Bundle
+"There are no products in this option.",在此選項中沒有產品。,module,Magento_Bundle
+Default,預設,module,Magento_Bundle
+Ordered,已訂購,module,Magento_Bundle
+Invoiced,已開票,module,Magento_Bundle
+Shipped,已寄送,module,Magento_Bundle
+Refunded,已退款,module,Magento_Bundle
+Canceled,已取消,module,Magento_Bundle
+"As low as",低至,module,Magento_Bundle
+From,由,module,Magento_Bundle
+To,至,module,Magento_Bundle
+"Buy %1 with %2 discount each","每買 %1 有%2 折扣",module,Magento_Bundle
+"Go back to product details",返回到產品詳細資訊,module,Magento_Bundle
+"Customize and Add to Cart",自訂並添加到購物車,module,Magento_Bundle
+"* Required Fields","* 為必填項",module,Magento_Bundle
+"Your Customization",您的自訂,module,Magento_Bundle
+"In stock",有貨,module,Magento_Bundle
+"Out of stock",缺貨,module,Magento_Bundle
+Quantity,數量,module,Magento_Bundle
+"No options of this product are available.",沒有這種產品可用的選項。,module,Magento_Bundle
+"Gift Message",禮物信息,module,Magento_Bundle
+From:,從：,module,Magento_Bundle
+To:,至：,module,Magento_Bundle
+Message:,訊息：,module,Magento_Bundle
+"Product Name",產品名稱,module,Magento_Bundle
+Subtotal,小計,module,Magento_Bundle
+"Discount Amount",折扣金額,module,Magento_Bundle
+Always,一律,module,Magento_Captcha
+"After number of attempts to login",嘗試登錄的次數,module,Magento_Captcha
+"Provided form does not exist",提供的表單不存在,module,Magento_Captcha
+"Incorrect CAPTCHA",不正確的驗證碼。,module,Magento_Captcha
 "Incorrect CAPTCHA.",不正確的驗證碼。,module,Magento_Captcha
+"The account is locked. Please wait and try again or contact %1.","該帳戶被鎖定。請等待再試或聯繫 %1。",module,Magento_Captcha
+"Please enter the letters from the image",請從圖像，輸入字母,module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>注意</strong>︰ 驗證碼是區分大小寫。",module,Magento_Captcha
+"Reload captcha",重新載入驗證碼,module,Magento_Captcha
+"Please type the letters below",請鍵入下面的字母,module,Magento_Captcha
 "ALL GROUPS",所有群組,module,Magento_CatalogInventory
 "Delete Rule",刪除規則,module,Magento_CatalogRule
 "Are you sure you want to do this?",你確定你想要這樣做？,module,Magento_CatalogRule
@@ -422,8 +582,149 @@ No,否,module,Magento_CatalogSearch
 "Product Attribute",產品屬性,module,Magento_CatalogWidget
 "Add to Cart",加到購物車,module,Magento_CatalogWidget
 Root,根,module,Magento_Catalog
+Delete,刪除,module,Magento_Catalog
+Save,儲存,module,Magento_Catalog
+"Use Config Settings",使用配置設置,module,Magento_Catalog
+ID,編號,module,Magento_Catalog
+Name,名稱,module,Magento_Catalog
+SKU,商品編號,module,Magento_Catalog
+Price,價格,module,Magento_Catalog
+Position,位置,module,Magento_Catalog
+"Add Subcategory",添加子類別,module,Magento_Catalog
+"Add Root Category",添加根類別,module,Magento_Catalog
+Day,日,module,Magento_Catalog
+Month,月,module,Magento_Catalog
+Year,年,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>從</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>到</span></label>",module,Magento_Catalog
+"WYSIWYG Editor",所見即所得編輯器,module,Magento_Catalog
+"Add Product",新增商品,module,Magento_Catalog
+label,標籤,module,Magento_Catalog
+"Product Attributes",產品屬性,module,Magento_Catalog
+"Add New Attribute",添加新的屬性,module,Magento_Catalog
+Cancel,取消,module,Magento_Catalog
+"Save Attribute",保存屬性,module,Magento_Catalog
+"Save in New Attribute Set",保存在新屬性集中,module,Magento_Catalog
+"Enter Name for New Attribute Set",輸入新屬性集的名稱,module,Magento_Catalog
+"Save and Continue Edit",保存並繼續編輯,module,Magento_Catalog
+"Delete Attribute",刪除屬性,module,Magento_Catalog
+"Edit Product Attribute ""%1""","編輯""%1""的產品屬性",module,Magento_Catalog
+"New Product Attribute",新的產品屬性,module,Magento_Catalog
+"Advanced Attribute Properties",進階屬性,module,Magento_Catalog
+"Attribute Code",屬性代碼,module,Magento_Catalog
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","這是在內部使用。請確保您不使用空格或多過 %1 個符號。",module,Magento_Catalog
+"Default Value",預設值,module,Magento_Catalog
+"Unique Value",獨特值,module,Magento_Catalog
+"Unique Value (not shared with other products)","（不能與其他產品共用） 的獨特值",module,Magento_Catalog
+"Not shared with other products.",不能與其他產品共用,module,Magento_Catalog
+"Input Validation for Store Owner",店主的輸入驗證,module,Magento_Catalog
+"Add to Column Options",添加到列選項,module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.",選擇“是”將此屬性添加到產品網格中的列選項清單。,module,Magento_Catalog
+"Use in Filter Options",使用篩選器選項,module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of filter options in the product grid.","選擇""是""將此屬性添加到產品網格中的篩選器選項清單中。",module,Magento_Catalog
+"Store View",店面,module,Magento_Catalog
+Website,網站,module,Magento_Catalog
+Global,全球,module,Magento_Catalog
+Scope,範圍,module,Magento_Catalog
+"Storefront Properties",店面的屬性,module,Magento_Catalog
+"Use in Search",在搜索中的使用,module,Magento_Catalog
+"Save & Edit",保存與編輯,module,Magento_Catalog
+"Save & New",保存與新增,module,Magento_Catalog
+"Save & Duplicate",保存與複製,module,Magento_Catalog
+"Save & Close",保存和關閉,module,Magento_Catalog
+Attributes,屬性,module,Magento_Catalog
+Change,更改,module,Magento_Catalog
+"Advanced Inventory",進階庫存,module,Magento_Catalog
+Websites,網站,module,Magento_Catalog
+"Products Information",產品資訊,module,Magento_Catalog
+"Create Category",新建類別,module,Magento_Catalog
+"Category Name",類別名稱,module,Magento_Catalog
+"Parent Category",主要類別,module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","如果沒有自訂主類別，請使用預設的主類別。您可以在任何時候重新分配類別 <a href=""%1""target=""_blank""> 產品 > 類別</a>。",module,Magento_Catalog
+"Price Alert Subscriptions",價格提示訂閱,module,Magento_Catalog
+"Stock Alert Subscriptions",庫存提示訂閱,module,Magento_Catalog
+"There are no customers for this alert.",這個提示沒有客戶。,module,Magento_Catalog
+"First Name",名字,module,Magento_Catalog
+"Last Name",姓氏,module,Magento_Catalog
+Email,電郵,module,Magento_Catalog
+"Subscribe Date",訂閱日期,module,Magento_Catalog
+"Last Notified",最後通知,module,Magento_Catalog
+"Send Count",發送計數,module,Magento_Catalog
+"New Attribute",新屬性,module,Magento_Catalog
+Type,類型,module,Magento_Catalog
+"Attribute Set",屬性集,module,Magento_Catalog
+Status,狀態,module,Magento_Catalog
+Visibility,可見度,module,Magento_Catalog
+"Add New Option",添加新選項,module,Magento_Catalog
+"Import Options",匯入選項,module,Magento_Catalog
+"Use Default",使用預設值,module,Magento_Catalog
+Import,匯入,module,Magento_Catalog
+"Add New Row",添加新行,module,Magento_Catalog
+"Delete Row",刪除整行,module,Magento_Catalog
+"Tier Pricing",第層定價,module,Magento_Catalog
+"Default Price",預設價格,module,Magento_Catalog
+"All Websites",所有網站,module,Magento_Catalog
+"ALL GROUPS",所有群組,module,Magento_Catalog
+"Add Price",添加價格,module,Magento_Catalog
+"Default Values",預設值,module,Magento_Catalog
+"Related Products",相關產品,module,Magento_Catalog
+Up-sells,向上銷售,module,Magento_Catalog
+Cross-sells,交叉銷售,module,Magento_Catalog
+"Size for %1","%1 的大小",module,Magento_Catalog
+"Watermark File for %1","%1 的浮水印檔",module,Magento_Catalog
+"Position of Watermark for %1","%1 的浮水印的位置",module,Magento_Catalog
+"Name in %1","在 %1 的名字",module,Magento_Catalog
+Quantity,數量,module,Magento_Catalog
+Edit,編輯,module,Magento_Catalog
+"Are you sure?",您確定嗎？,module,Magento_Catalog
+"Change Status",更改狀態,module,Magento_Catalog
+"This attribute cannot be edited.",不能編輯此屬性。,module,Magento_Catalog
+"Edit Product Attribute",編輯產品屬性,module,Magento_Catalog
+"Something went wrong while saving the attribute.",保存該屬性時出錯。,module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","屬性代碼""%1""是不正確。請使用字母 (a-z)，數位 (0-9) 或底線(_)，而且第一個字元應該是字母。",module,Magento_Catalog
+"You saved the product attribute.",你保存了產品屬性。,module,Magento_Catalog
+"An attribute with this code already exists.",這段代碼的屬性已經存在。,module,Magento_Catalog
+"An attribute with the same code (%1) already exists.","具有相同代碼 (%1) 的屬性已經存在。",module,Magento_Catalog
+"The value of Admin must be unique.",管理員的值必須是唯一的。,module,Magento_Catalog
+"You duplicated the product.",你複製了產品。,module,Magento_Catalog
+"This product doesn't exist.",此產品不存在。,module,Magento_Catalog
+"Invalid product id. Should be numeric value greater than 0","不正確產品 id。數位值應該大於 0",module,Magento_Catalog
+Products,產品,module,Magento_Catalog
+"A group with the same name already exists.",具有相同名稱的組已存在。,module,Magento_Catalog
+"Something went wrong while saving this group.",保存該組時出了錯。,module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","共有 %1 條記錄已被刪除。",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","共有 %1 條記錄已更新。",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.",更新產品狀態時出了錯。,module,Magento_Catalog
+"Unable to save product",無法保存產品,module,Magento_Catalog
+"You saved the product.",你保存了產品。,module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","產品 %1 的產品編號已改為 %2。",module,Magento_Catalog
+"The image cannot be removed as it has been assigned to the other image role",圖像無法被刪除，因為它已被分配給其他圖像角色,module,Magento_Catalog
+"New Attribute Set",新屬性集,module,Magento_Catalog
+"The attribute set has been removed.",屬性集已刪除。,module,Magento_Catalog
+"New Set",新集,module,Magento_Catalog
+"Manage Product Sets",管理產品集,module,Magento_Catalog
+"Manage Attribute Sets",管理屬性集,module,Magento_Catalog
+"This attribute set no longer exists.",此屬性設置不再存在。,module,Magento_Catalog
+"You saved the attribute set.",你保存了屬性集。,module,Magento_Catalog
+"Something went wrong while saving the attribute set.",保存該屬性時出錯。,module,Magento_Catalog
+"You added product %1 to the comparison list.","你添加產品 %1 到比較清單中。",module,Magento_Catalog
+"You cleared the comparison list.",你清除了比較清單。,module,Magento_Catalog
+"Something went wrong  clearing the comparison list.",清除比較清單時出錯,module,Magento_Catalog
+"You removed product %1 from the comparison list.","您從比較清單中刪除產品 %1。",module,Magento_Catalog
+"1 item",1個項目,module,Magento_Catalog
+"%1 items","%1 項目",module,Magento_Catalog
+"Invalid attribute %1","無效的屬性 %1",module,Magento_Catalog
+Grid,格狀,module,Magento_Catalog
+List,列表,module,Magento_Catalog
+All,全部,module,Magento_Catalog
+"Bad controller interface for showing product",壞的控制器界面來顯示產品,module,Magento_Catalog
+"Product is not loaded",產品未載入,module,Magento_Catalog
+"Make sure the To Date is later than or the same as the From Date.",確保結束日期必需晚於或等於出發日期。,module,Magento_Catalog
+"Something went wrong while getting the image url.",獲得圖像URL時出錯。,module,Magento_Catalog
 "Can't delete root category.",不能刪除根類別。,module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","""%1""屬性的值必須是唯一的。",module,Magento_Catalog
+"No layout updates",沒有佈局更新,module,Magento_Catalog
+"Products only",僅產品,module,Magento_Catalog
 "We can't rebuild the index for an undefined product.",我們不能為未定義的產品重建索引。,module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.",我們不能複製檔案%1。請刪除媒體與不存在的圖片然後重試。,module,Magento_Catalog
 "Such product doesn't exist",這種產品並不存在,module,Magento_Catalog
@@ -504,7 +805,18 @@ Close,關閉,module,Magento_Widget
 "Wish List Sharing",分享願望清單,module,Magento_Wishlist
 "My Wish List",我的願望清單,module,Magento_Wishlist
 "Place Order",確認訂單,module,Magento_Authorizenet
+"Credit Card Information",信用卡資訊,module,Magento_Braintree
+"What is this?",這是怎麽？,module,Magento_Braintree
+"Save for later use.",保存供以後使用。,module,Magento_Braintree
+"Place Order",確認訂單,module,Magento_Braintree
+"Attention: Captcha is case sensitive.","注意︰ 驗證碼是區分大小寫。",module,Magento_Captcha
+"We could not detect a size.",我們無法檢測到大小。,module,Magento_Backend
 "We don't recognize or support this file extension type.",我們無法識別或不支援此檔案類型。,module,Magento_Backend
+"This payment is not available",這筆付款不可用,module,Magento_Braintree
+"Please try again with another form of payment.",請以其他付款方式再試一次。,module,Magento_Braintree
+"Sorry, but something went wrong.",對不起，出了問題。,module,Magento_Braintree
+"Add Products to New Option",將產品添加到新的選項,module,Magento_Bundle
+"Add Products to Option ""%1""","將產品添加到""%1""選項",module,Magento_Bundle
 "Show Toolbar",顯示工具列,module,Magento_AdminNotification
 "Show List",顯示清單,module,Magento_AdminNotification
 "Use HTTPS to Get Feed","使用 HTTPS 獲取資料",module,Magento_AdminNotification
@@ -514,17 +826,35 @@ Severity,嚴重程度,module,Magento_AdminNotification
 "Date Added",新增日期,module,Magento_AdminNotification
 Message,訊息,module,Magento_AdminNotification
 Actions,動作,module,Magento_AdminNotification
+Enabled,啟用,module,Magento_Authorizenet
+"Payment Action",付款操作,module,Magento_Authorizenet
 Title,標題,module,Magento_Authorizenet
 "API Login ID","API 的登入識別碼",module,Magento_Authorizenet
+"Merchant MD5","商戶 MD5",module,Magento_Authorizenet
 "New Order Status",新訂單狀態,module,Magento_Authorizenet
 "Test Mode",測試模式,module,Magento_Authorizenet
 "Transaction Details URL","交易明細 URL",module,Magento_Authorizenet
 "Accepted Currency",接受的貨幣,module,Magento_Authorizenet
 Debug,除錯,module,Magento_Authorizenet
+"Email Customer",電郵客戶,module,Magento_Authorizenet
 "Merchant's Email",商戶的電子郵件,module,Magento_Authorizenet
 "Credit Card Types",信用卡類型,module,Magento_Authorizenet
 "Credit Card Verification",信用卡驗證,module,Magento_Authorizenet
+"Payment from Applicable Countries",適用國家的付款,module,Magento_Authorizenet
+"Payment from Specific Countries",特定國家的付款,module,Magento_Authorizenet
 "Minimum Order Total",最小訂單總數,module,Magento_Authorizenet
+"Maximum Order Total",最大訂單總計,module,Magento_Authorizenet
+"Sort Order",訂單排序,module,Magento_Authorizenet
+"Allow everything",允許一切,module,Magento_Backend
+"Magento Admin","Magento 管理員",module,Magento_Backend
+"Global Search",全域搜索,module,Magento_Backend
+Marketing,行銷,module,Magento_Backend
+"SEO & Search","SEO 與搜索",module,Magento_Backend
+"User Content",使用者內容,module,Magento_Backend
+Content,內容,module,Magento_Backend
+Elements,元素,module,Magento_Backend
+Design,設計,module,Magento_Backend
+Schedule,日程表,module,Magento_Backend
 Settings,設定,module,Magento_Backend
 "All Stores",所有商店,module,Magento_Backend
 Attributes,屬性,module,Magento_Backend
@@ -575,6 +905,17 @@ Debug,偵錯,module,Magento_Backend
 "Country Options",國家選項,module,Magento_Backend
 "Allow Countries",允許國家,module,Magento_Backend
 "Default Country",預設國家,module,Magento_Backend
+"European Union Countries",歐洲聯盟國家,module,Magento_Backend
+"Top destinations",熱門目的地,module,Magento_Backend
+"Locale Options",地區設定選項,module,Magento_Backend
+Timezone,時區,module,Magento_Backend
+Locale,語言,module,Magento_Backend
+"First Day of Week",一周的第一天,module,Magento_Backend
+"Weekend Days",週末天,module,Magento_Backend
+"Store Name",商店名稱,module,Magento_Backend
+"Store Phone Number",商店電話號碼,module,Magento_Backend
+"Store Hours of Operation",商店上班時間,module,Magento_Backend
+Country,國家,module,Magento_Backend
 Region/State,地區／國家,module,Magento_Backend
 "ZIP/Postal Code",郵遞區號,module,Magento_Backend
 City,城市,module,Magento_Backend
@@ -600,6 +941,19 @@ Admin,管理員,module,Magento_Backend
 "Use Custom Admin URL",使用自訂管理面版網址,module,Magento_Backend
 "Custom Admin URL",自訂管理面版網址,module,Magento_Backend
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","請確保基礎網址是以 '/' 斜線結尾，例如 http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path",使用自訂管理路徑,module,Magento_Backend
+"Custom Admin Path",自訂管理路徑,module,Magento_Backend
+"You will have to sign in after you save your custom admin path.",保存您的自定義管理路徑後，您必須重新登錄。,module,Magento_Backend
+Security,安全性,module,Magento_Backend
+"Please enter a number 1 or greater in this field.",請在此欄位中輸入1或更大的數字。,module,Magento_Backend
+"Add Secret Key to URLs","將金鑰添加到 Url",module,Magento_Backend
+"Login is Case Sensitive",登錄名是區分大小寫,module,Magento_Backend
+"Admin Session Lifetime (seconds)","管理會話存留期 （秒）",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","請輸入至最少 60 和 最多 31536000 （一年）。",module,Magento_Backend
+"Enable Charts",啟用圖表,module,Magento_Backend
+Web,網頁,module,Magento_Backend
+"Url Options","Url 選項",module,Magento_Backend
+"Add Store Code to Urls","將店舖代碼添加到 Url",module,Magento_Backend
 "Auto-redirect to Base URL",自動導向至基礎網址,module,Magento_Backend
 "Search Engine Optimization",搜尋引擎優化,module,Magento_Backend
 "Use Web Server Rewrites",使用網站伺服器重寫,module,Magento_Backend
@@ -648,6 +1002,7 @@ Pagination,分頁,module,Magento_Backend
 "Pagination Frame Skip",跳頁數量,module,Magento_Backend
 "If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.",如當前頁數未能包含頂頁／底頁，連結將顯示為當前位置加／減此值。,module,Magento_Backend
 "Anchor Text for Previous",上頁的連結文字,module,Magento_Backend
+"Theme Name",主題名稱,module,Magento_Backend
 "Scheduled Backup Settings",計劃備份設置,module,Magento_Backup
 "Enable Scheduled Backup",啟用預設備份,module,Magento_Backup
 "Backup Type",備份類型,module,Magento_Backup
@@ -661,3 +1016,71 @@ Size(bytes),"大小 （bytes)",module,Magento_Backup
 Type,類別,module,Magento_Backup
 Download,下載,module,Magento_Backup
 Action,操作,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","在您的 Magento 商店接受信用卡/借記卡和PayPal。<br/>沒有設置費或月費，客戶不需要離開你的商店來完成購買。",module,Magento_Braintree
+"Enable this Solution",啟用此解決方案,module,Magento_Braintree
+"Enable PayPal through Braintree","准許 Paypal 透過 Braintree",module,Magento_Braintree
+"Vault Enabled",存儲庫已啟用,module,Magento_Braintree
+"Basic Braintree Settings","基本 Braintree 設置",module,Magento_Braintree
+Title,標題,module,Magento_Braintree
+Environment,環境,module,Magento_Braintree
+"Payment Action",付款操作,module,Magento_Braintree
+"Merchant ID","商戶 ID",module,Magento_Braintree
+"Advanced Braintree Settings","進階 Merchant 設置",module,Magento_Braintree
+"Merchant Account ID","商戶帳戶 ID",module,Magento_Braintree
+"Advanced Fraud Protection",進階的防欺詐保護,module,Magento_Braintree
+Debug,除錯,module,Magento_Braintree
+"CVV Verification","CVV 驗證",module,Magento_Braintree
+"Credit Card Types",信用卡類型,module,Magento_Braintree
+"Sort Order",訂單排序,module,Magento_Braintree
+"Country Specific Settings",國家/地區特定設置,module,Magento_Braintree
+"Payment from Applicable Countries",適用國家的付款,module,Magento_Braintree
+"Payment from Specific Countries",特定國家的付款,module,Magento_Braintree
+"Country Specific Credit Card Types",國家特定的信用卡類型,module,Magento_Braintree
+"PayPal through Braintree","Paypal 透過 Braintree",module,Magento_Braintree
+"Override Merchant Name",重寫商戶名稱,module,Magento_Braintree
+"Require Customer's Billing Address",需要客戶的帳單地址,module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","允許編輯在 PayPal 結帳時輸入的送貨地址",module,Magento_Braintree
+"Display on Shopping Cart",在購物車上的顯示,module,Magento_Braintree
+"Skip Order Review",跳過訂單檢閱,module,Magento_Braintree
+"3D Secure Verification Settings","3D 安全驗證設置",module,Magento_Braintree
+"3D Secure Verification","3D 安全驗證",module,Magento_Braintree
+"Threshold Amount",門檻金額,module,Magento_Braintree
+"Verify for Applicable Countries",驗證為適用的國家,module,Magento_Braintree
+"Verify for Specific Countries",驗證為特定的國家,module,Magento_Braintree
+"Dynamic Descriptors",動態描述項,module,Magento_Braintree
+Name,名稱,module,Magento_Braintree
+Phone,電話,module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","應用篩選器以獲得結果。 網格中只會顯示前100條記錄，您將能夠以.csv格式下載完整的報告。",module,Magento_Braintree
+Select...,選擇…,module,Magento_Braintree
+Status,狀態,module,Magento_Braintree
+"Transaction Type",交易類型,module,Magento_Braintree
+"Payment Type",付款類型,module,Magento_Braintree
+"PayPal Payment ID","PayPal 付款編號",module,Magento_Braintree
+"Created At",新增於,module,Magento_Braintree
+"Transaction ID",交易編號,module,Magento_Braintree
+"Order ID",訂單編號,module,Magento_Braintree
+Type,類型,module,Magento_Braintree
+Amount,金額,module,Magento_Braintree
+"Settlement Code",結算代碼,module,Magento_Braintree
+"Settlement Response Text",結算回應文本,module,Magento_Braintree
+"Refund Ids","退款 Ids",module,Magento_Braintree
+"Settlement Batch ID",結算批次編號,module,Magento_Braintree
+Currency,貨幣,module,Magento_Braintree
+Select...,選擇…,module,Magento_Bundle
+Status,狀態,module,Magento_Bundle
+Thumbnail,縮圖,module,Magento_Bundle
+Type,類型,module,Magento_Bundle
+CAPTCHA,驗證碼,module,Magento_Captcha
+"Enable CAPTCHA in Admin",在管理員啟用驗證碼,module,Magento_Captcha
+Font,字體,module,Magento_Captcha
+Forms,表單,module,Magento_Captcha
+"Displaying Mode",顯示模式,module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login",嘗試登錄失敗次數,module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","如果指定 0，登錄表單上的驗證碼將一律可用。",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","驗證碼超時 （分鐘）",module,Magento_Captcha
+"Number of Symbols",符號數,module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","請最多指定8個符號。 範圍允許（例如3-5）",module,Magento_Captcha
+"Symbols Used in CAPTCHA",在驗證碼中使用的符號,module,Magento_Captcha
+"Case Sensitive",區分大小寫,module,Magento_Captcha
+"Enable CAPTCHA on Storefront",啟用在店面上的驗證碼,module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.",如果選擇了“創建用戶”和“忘記密碼”表單，一律啟用驗證碼。,module,Magento_Captcha
