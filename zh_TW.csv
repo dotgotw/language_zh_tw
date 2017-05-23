@@ -62,7 +62,7 @@ Invalidated,無效,module,Magento_Backend
 Orders,訂單,module,Magento_Backend
 Amounts,金額,module,Magento_Backend
 Bestsellers,暢銷產品,module,Magento_Backend
-"Most Viewed Products",最受關注的產品,module,Magento_Backend
+"Most Viewed Products",最受歡迎的產品,module,Magento_Backend
 "New Customers",新客戶,module,Magento_Backend
 Customers,客戶,module,Magento_Backend
 Customer,客戶,module,Magento_Backend
@@ -100,7 +100,7 @@ Email,電郵,module,Magento_Backend
 "Your Password",您的密碼,module,Magento_Backend
 "Save Cache Settings",儲存緩存設定,module,Magento_Backend
 "Catalog Rewrites",目錄重寫,module,Magento_Backend
-Refresh,刷新,module,Magento_Backend
+Refresh,重新整理,module,Magento_Backend
 "Images Cache",圖片緩存,module,Magento_Backend
 Clear,清除,module,Magento_Backend
 "Search Index",搜尋索引,module,Magento_Backend
