@@ -89,7 +89,7 @@ Invalidated,無效,module,Magento_Backend
 Orders,訂單,module,Magento_Backend
 Amounts,金額,module,Magento_Backend
 Bestsellers,暢銷產品,module,Magento_Backend
-"Most Viewed Products",最受關注的產品,module,Magento_Backend
+"Most Viewed Products",最受歡迎的產品,module,Magento_Backend
 "New Customers",新客戶,module,Magento_Backend
 Customers,客戶,module,Magento_Backend
 Customer,客戶,module,Magento_Backend
@@ -127,7 +127,7 @@ Email,電郵,module,Magento_Backend
 "Your Password",您的密碼,module,Magento_Backend
 "Save Cache Settings",儲存緩存設定,module,Magento_Backend
 "Catalog Rewrites",目錄重寫,module,Magento_Backend
-Refresh,刷新,module,Magento_Backend
+Refresh,重新整理,module,Magento_Backend
 "Images Cache",圖片緩存,module,Magento_Backend
 Clear,清除,module,Magento_Backend
 "Search Index",搜尋索引,module,Magento_Backend
@@ -355,6 +355,7 @@ selected,已選的,module,Magento_Backend
 "Next page",下一頁,module,Magento_Backend
 "Export to:",匯出至,module,Magento_Backend
 Actions,操作,module,Magento_Backend
+"Mass Actions",大規模的操作,module,Magento_Backend
 "Unselect All",全部取消選擇,module,Magento_Backend
 "Select Visible",選擇可見,module,Magento_Backend
 "Unselect Visible",取消選擇可見,module,Magento_Backend
@@ -945,6 +946,7 @@ Admin,管理員,module,Magento_Backend
 "Custom Admin Path",自訂管理路徑,module,Magento_Backend
 "You will have to sign in after you save your custom admin path.",保存您的自定義管理路徑後，您必須重新登錄。,module,Magento_Backend
 Security,安全性,module,Magento_Backend
+"Recovery Link Expiration Period (hours)",恢復鏈接到期時間（小時）,module,Magento_Backend
 "Please enter a number 1 or greater in this field.",請在此欄位中輸入1或更大的數字。,module,Magento_Backend
 "Add Secret Key to URLs","將金鑰添加到 Url",module,Magento_Backend
 "Login is Case Sensitive",登錄名是區分大小寫,module,Magento_Backend
@@ -1002,6 +1004,9 @@ Pagination,分頁,module,Magento_Backend
 "Pagination Frame Skip",跳頁數量,module,Magento_Backend
 "If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.",如當前頁數未能包含頂頁／底頁，連結將顯示為當前位置加／減此值。,module,Magento_Backend
 "Anchor Text for Previous",上頁的連結文字,module,Magento_Backend
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.",在分頁功能表的上一個頁連結中，如果替代文字留空，將使用默認的箭頭圖像。,module,Magento_Backend
+"Anchor Text for Next",下一張的錨文本,module,Magento_Backend
+"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.",在分頁功能表的下一個頁連結中，如果替代文字留空，將使用默認的箭頭圖像。,module,Magento_Backend
 "Theme Name",主題名稱,module,Magento_Backend
 "Scheduled Backup Settings",計劃備份設置,module,Magento_Backup
 "Enable Scheduled Backup",啟用預設備份,module,Magento_Backup
