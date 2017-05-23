@@ -88,7 +88,7 @@ Invalidated,無效,module,Magento_Backend
 Orders,訂單,module,Magento_Backend
 Amounts,金額,module,Magento_Backend
 Bestsellers,暢銷產品,module,Magento_Backend
-"Most Viewed Products",最受關注的產品,module,Magento_Backend
+"Most Viewed Products",最受歡迎的產品,module,Magento_Backend
 "New Customers",新客戶,module,Magento_Backend
 Customers,客戶,module,Magento_Backend
 Customer,客戶,module,Magento_Backend
@@ -126,7 +126,7 @@ Email,電郵,module,Magento_Backend
 "Your Password",您的密碼,module,Magento_Backend
 "Save Cache Settings",儲存緩存設定,module,Magento_Backend
 "Catalog Rewrites",目錄重寫,module,Magento_Backend
-Refresh,刷新,module,Magento_Backend
+Refresh,重新整理,module,Magento_Backend
 "Images Cache",圖片緩存,module,Magento_Backend
 Clear,清除,module,Magento_Backend
 "Search Index",搜尋索引,module,Magento_Backend
@@ -349,6 +349,7 @@ selected,已選的,module,Magento_Backend
 "Next page",下一頁,module,Magento_Backend
 "Export to:",匯出至,module,Magento_Backend
 Actions,操作,module,Magento_Backend
+"Mass Actions",大規模的操作,module,Magento_Backend
 "Unselect All",全部取消選擇,module,Magento_Backend
 "Select Visible",選擇可見,module,Magento_Backend
 "Unselect Visible",取消選擇可見,module,Magento_Backend
@@ -899,6 +900,7 @@ Pagination,分頁,module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.",如果現時視框的位置並不包括至上頁，將提供連結到現時位置加減值。,module,Magento_Backend
 "Anchor Text for Previous",上頁的連結文字,module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.",替代文字在分頁功能表中的上一個連結。如果為空，將使用預設的箭頭圖像。,module,Magento_Backend
+"Anchor Text for Next",下一張的錨文本,module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.",替代文字在分頁功能表中的下一個連結。如果為空，將使用預設的箭頭圖像。,module,Magento_Backend
 Developer,開發人員,module,Magento_Backend
 Debug,偵錯,module,Magento_Backend
