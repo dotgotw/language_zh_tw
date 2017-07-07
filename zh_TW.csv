@@ -1,15 +1,15 @@
-"Read Details",閱讀詳細資料,module,Magento_AdminNotification
-"Mark as Read",標記為已讀,module,Magento_AdminNotification
-"Are you sure?",你確定嗎?,module,Magento_AdminNotification
-Remove,刪除,module,Magento_AdminNotification
-"Messages Inbox",訊息收件匣,module,Magento_AdminNotification
-"You have %1 new system messages","你有 %1 條新系統消息",module,Magento_AdminNotification
-"You have %1 new system message","你有 %1 條新系統消息",module,Magento_AdminNotification
-"Incoming Message",收到的訊息,module,Magento_AdminNotification
+"Read Details",詳細資料,module,Magento_AdminNotification
+"Mark as Read",已讀,module,Magento_AdminNotification
+"Are you sure?",是否確認?,module,Magento_AdminNotification
+Remove,移除,module,Magento_AdminNotification
+"Messages Inbox",收件匣訊息,module,Magento_AdminNotification
+"You have %1 new system messages","你有 %1 條新訊息",module,Magento_AdminNotification
+"You have %1 new system message","你有 %1 條新訊息",module,Magento_AdminNotification
+"Incoming Message",收到訊息,module,Magento_AdminNotification
 close,關閉,module,Magento_AdminNotification
 Notifications,通知,module,Magento_AdminNotification
 "The message has been marked as Read.",訊息已標記為已讀。,module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.",發生錯誤，我們未能標記通知為已讀。,module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.",系統未能標記錯誤提示為已讀。,module,Magento_AdminNotification
 "Please select messages.",請選擇訊息。,module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","共有 %1 條記錄已標記為已讀。",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","共有 %1 條記錄已被刪除。",module,Magento_AdminNotification
