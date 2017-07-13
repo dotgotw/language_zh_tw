@@ -587,6 +587,7 @@ Root,根,module,Magento_Catalog
 Delete,刪除,module,Magento_Catalog
 Save,儲存,module,Magento_Catalog
 "Use Config Settings",使用配置設置,module,Magento_Catalog
+"Use All Available Attributes",使用所有可用的屬性,module,Magento_Catalog
 ID,編號,module,Magento_Catalog
 Name,名稱,module,Magento_Catalog
 SKU,商品編號,module,Magento_Catalog
@@ -630,6 +631,11 @@ Global,全球,module,Magento_Catalog
 Scope,範圍,module,Magento_Catalog
 "Storefront Properties",店面的屬性,module,Magento_Catalog
 "Use in Search",在搜索中的使用,module,Magento_Catalog
+"Visible in Advanced Search",可見於進階搜尋中,module,Magento_Catalog
+"Comparable on Storefront",在店面上可以比較,module,Magento_Catalog
+"Use for Promo Rule Conditions",可以作為促銷條件之一,module,Magento_Catalog
+"Enable WYSIWYG",啟用WYSIWYG,module,Magento_Catalog
+"Allow HTML Tags on Storefront","在店面上允許使用 HTML 標籤",module,Magento_Catalog
 "Save & Edit",保存與編輯,module,Magento_Catalog
 "Save & New",保存與新增,module,Magento_Catalog
 "Save & Duplicate",保存與複製,module,Magento_Catalog
