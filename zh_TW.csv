@@ -625,6 +625,7 @@ Root,根,module,Magento_Catalog
 "New Root Category",新根類別,module,Magento_Catalog
 "Set Root Category for Store",設定商店的根類別,module,Magento_Catalog
 "Use Config Settings",使用配置設置,module,Magento_Catalog
+"Use All Available Attributes",使用所有可用的屬性,module,Magento_Catalog
 "Custom Design",自訂設計,module,Magento_Catalog
 ID,編號,module,Magento_Catalog
 Name,名稱,module,Magento_Catalog
@@ -669,6 +670,11 @@ Global,全球,module,Magento_Catalog
 Scope,範圍,module,Magento_Catalog
 "Storefront Properties",店面的屬性,module,Magento_Catalog
 "Use in Search",在搜索中的使用,module,Magento_Catalog
+"Visible in Advanced Search",可見於進階搜尋中,module,Magento_Catalog
+"Comparable on Storefront",在店面上可以比較,module,Magento_Catalog
+"Use for Promo Rule Conditions",可以作為促銷條件之一,module,Magento_Catalog
+"Enable WYSIWYG",啟用WYSIWYG,module,Magento_Catalog
+"Allow HTML Tags on Storefront","在店面上允許使用 HTML 標籤",module,Magento_Catalog
 "Depends on design theme",取決於設計主題,module,Magento_Catalog
 Delete,刪除,module,Magento_Catalog
 Save,儲存,module,Magento_Catalog
