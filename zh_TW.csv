@@ -42,10 +42,15 @@ authorize,授權,module,Magento_Authorizenet
 capture,提取,module,Magento_Authorizenet
 refund,退款,module,Magento_Authorizenet
 void,無效,module,Magento_Authorizenet
+"Gateway error: %1","閘道錯誤: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.",支付閘道錯誤,module,Magento_Authorizenet
 "Invalid amount for capture.",提取的金額無效。,module,Magento_Authorizenet
 "Payment capturing error.",提取付款時出現錯誤。,module,Magento_Authorizenet
 "Invalid transaction ID.",無效的交易號碼,module,Magento_Authorizenet
+"Payment voiding error.",支付無效,module,Magento_Authorizenet
 "Invalid amount for refund.",退款金額無效。,module,Magento_Authorizenet
+"Payment refunding error.",退款錯誤,module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.",回應的hash認證失敗，拒絕交易,module,Magento_Authorizenet
 "There was a payment authorization error.",出現了一個付款授權錯誤。,module,Magento_Authorizenet
 "Authorize Only",僅授權,module,Magento_Authorizenet
 "Authorize and Capture",授權和提取,module,Magento_Authorizenet
@@ -338,6 +343,7 @@ Database,資料庫,module,Magento_Backup
 "FTP Host","FTP 主機",module,Magento_Backup
 "FTP Login","FTP 登錄名",module,Magento_Backup
 "FTP Password","FTP 密碼",module,Magento_Backup
+"Magento root directory","Magento 根目錄",module,Magento_Backup
 "Create Backup",創建備份,module,Magento_Backup
 Country,國家,module,Magento_Braintree
 "Allowed Credit Card Types",允許的信用卡類型,module,Magento_Braintree
@@ -402,6 +408,7 @@ SKU,商品編號,module,Magento_Bundle
 Price,價格,module,Magento_Bundle
 Delete,刪除,module,Magento_Bundle
 "Use Default Value",使用預設值,module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","找不到 ""%1"" 選項的渲染器",module,Magento_Bundle
 "As Low as",低至,module,Magento_Bundle
 "Price Range",價格範圍,module,Magento_Bundle
 "Please specify product option(s).",請指定產品選項。,module,Magento_Bundle
@@ -415,6 +422,7 @@ None,無,module,Magento_Bundle
 Separately,分開,module,Magento_Bundle
 Together,一起,module,Magento_Bundle
 "Option Title",選項標題,module,Magento_Bundle
+"Store View Title",商店總覽標題,module,Magento_Bundle
 "Input Type",輸入類型,module,Magento_Bundle
 Required,必要,module,Magento_Bundle
 Position,位置,module,Magento_Bundle
@@ -438,8 +446,12 @@ To,至,module,Magento_Bundle
 "Customize and Add to Cart",自訂並添加到購物車,module,Magento_Bundle
 "* Required Fields","* 為必填項",module,Magento_Bundle
 "Your Customization",您的自訂,module,Magento_Bundle
+Availability,庫存,module,Magento_Bundle
 "In stock",有貨,module,Magento_Bundle
 "Out of stock",缺貨,module,Magento_Bundle
+Summary,摘要,module,Magento_Bundle
+Availability:,庫存:,module,Magento_Bundle
+"Customize %1","自訂 %1",module,Magento_Bundle
 "No options of this product are available.",沒有這種產品可用的選項。,module,Magento_Bundle
 "Gift Message",禮物信息,module,Magento_Bundle
 From:,從：,module,Magento_Bundle
@@ -498,6 +510,7 @@ Month,月,module,Magento_Catalog
 Year,年,module,Magento_Catalog
 "<label class=""label""><span>from</span></label>","<label class=""label""> <span>從</span></label>",module,Magento_Catalog
 "<label class=""label""><span>to</span></label>","<label class=""label""> <span>到</span></label>",module,Magento_Catalog
+"[STORE VIEW]",[商店總覽],module,Magento_Catalog
 "WYSIWYG Editor",所見即所得編輯器,module,Magento_Catalog
 "Add Product",新增商品,module,Magento_Catalog
 label,標籤,module,Magento_Catalog
@@ -573,6 +586,27 @@ Quantity,數量,module,Magento_Catalog
 Edit,編輯,module,Magento_Catalog
 "Are you sure?",您確定嗎？,module,Magento_Catalog
 "Click here or drag and drop to add images.",請按一下此處或拖放加入圖像。,module,Magento_Catalog
+"Does this have a weight?",是否包含重量,module,Magento_Catalog
+Product,產品,module,Magento_Catalog
+"Notify Low Stock RSS",RSS低庫存通知,module,Magento_Catalog
+Home,首頁,module,Magento_Catalog
+"Go to Home Page",回到首頁,module,Magento_Catalog
+"Products Comparison List",商品比較表,module,Magento_Catalog
+AM,上午,module,Magento_Catalog
+PM,下午,module,Magento_Catalog
+"-- Please Select --","-- 請選擇 --",module,Magento_Catalog
+None,無,module,Magento_Catalog
+"New Products",新商品,module,Magento_Catalog
+"Click for price",點擊看價格,module,Magento_Catalog
+"You deleted the category.",已刪除該分類,module,Magento_Catalog
+"Something went wrong while trying to delete the category.",刪除該分類時出現錯誤,module,Magento_Catalog
+Categories,分類,module,Magento_Catalog
+"Manage Catalog Categories",型錄分類管理,module,Magento_Catalog
+"Manage Categories",分類管理,module,Magento_Catalog
+"There was a category move error.",分類移動錯誤,module,Magento_Catalog
+"Attribute ""%1"" is required.","必須有 ""%1"" 屬性",module,Magento_Catalog
+"You saved the category.",分類已儲存,module,Magento_Catalog
+"Please select products for attributes update.",請選擇商品以更新屬性,module,Magento_Catalog
 "This attribute cannot be edited.",不能編輯此屬性。,module,Magento_Catalog
 "Edit Product Attribute",編輯產品屬性,module,Magento_Catalog
 "You saved the product attribute.",你保存了產品屬性。,module,Magento_Catalog
@@ -667,13 +701,16 @@ Severity,嚴重程度,module,Magento_AdminNotification
 "Date Added",新增日期,module,Magento_AdminNotification
 Message,訊息,module,Magento_AdminNotification
 Actions,動作,module,Magento_AdminNotification
+"Authorize.net Direct Post","Authorize.net 直接付款",module,Magento_Authorizenet
 Enabled,啟用,module,Magento_Authorizenet
 "Payment Action",付款操作,module,Magento_Authorizenet
 Title,標題,module,Magento_Authorizenet
 "API Login ID","API 的登入識別碼",module,Magento_Authorizenet
+"Transaction Key",交易金鑰,module,Magento_Authorizenet
 "Merchant MD5","商戶 MD5",module,Magento_Authorizenet
 "New Order Status",新訂單狀態,module,Magento_Authorizenet
 "Test Mode",測試模式,module,Magento_Authorizenet
+"Gateway URL",閘道網址,module,Magento_Authorizenet
 "Accepted Currency",接受的貨幣,module,Magento_Authorizenet
 Debug,除錯,module,Magento_Authorizenet
 "Email Customer",電郵客戶,module,Magento_Authorizenet
@@ -824,6 +861,7 @@ Tags,標籤,module,Magento_Backend
 "Enable Scheduled Backup",啟用預設備份,module,Magento_Backup
 "Backup Type",備份類型,module,Magento_Backup
 "Start Time",開始時間,module,Magento_Backup
+Frequency,頻率,module,Magento_Backup
 "Maintenance Mode",維護模式,module,Magento_Backup
 Delete,刪除,module,Magento_Backup
 "Are you sure you want to delete the selected backup(s)?",確實要刪除所選的備份嗎？,module,Magento_Backup
@@ -833,12 +871,15 @@ Size(bytes),"大小 （bytes)",module,Magento_Backup
 Type,類別,module,Magento_Backup
 Download,下載,module,Magento_Backup
 Action,操作,module,Magento_Backup
+Rollback,還原,module,Magento_Backup
 "Enable this Solution",啟用此解決方案,module,Magento_Braintree
 "Enable PayPal through Braintree","准許 Paypal 透過 Braintree",module,Magento_Braintree
 Title,標題,module,Magento_Braintree
 Environment,環境,module,Magento_Braintree
 "Merchant Account ID","商戶帳戶 ID",module,Magento_Braintree
 "Merchant ID","商戶 ID",module,Magento_Braintree
+"Public Key",公開金鑰,module,Magento_Braintree
+"Private Key",私人金鑰,module,Magento_Braintree
 Debug,除錯,module,Magento_Braintree
 "CVV Verification","CVV 驗證",module,Magento_Braintree
 "Credit Card Types",信用卡類型,module,Magento_Braintree
