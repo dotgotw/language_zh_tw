@@ -6,22 +6,23 @@ This translation is usefull for people living in the Taiwan (台湾).
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh#/Head) at Crowdin and based on the Magento 2.1.4 sourcefiles.
-There have been  1098 strings translated of the 8458 strings in the Magento source.
+This translation is generated from the branch [2.1.8](https://crowdin.com/project/magento-2/zh#/2.1.8) at Crowdin and based on the Magento 2.1.8 sourcefiles.
+There have been  1162 strings translated of the 8467 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/13)
+Translation progress:![Progress](http://progressed.io/bar/14)
 
 # Instalation
+**Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_zh_tw:dev-master
+composer require magento2translations/language_zh_tw:2.1.8.x-dev
 php bin/magento cache:clean
 ```
 ## Manually
 To install this language package manually you need access to your server file system.
-* Download the zip file [here](https://github.com/Magento2Translations/language_zh_tw/archive/master.zip).
+* Download the zip file [here](https://github.com/Magento2Translations/language_zh_tw/archive/2.1.8.zip).
 * Upload the contents to `<your magento path>/app/i18n/magento2translations/language_zh_tw`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/zh_TW/zh_TW.csv`.
 * Go to your Magento admin panel and clear the caches.
