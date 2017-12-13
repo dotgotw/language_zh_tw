@@ -850,6 +850,7 @@ Product,產品,module,Magento_Review
 "Page not found.",找不到頁面。,module,Magento_Rss
 Reset,重置,module,Magento_SalesRule
 "Something went wrong",出現錯誤,module,Magento_Sales
+"We couldn't logout because of an error.",由於發生錯誤，我們不能登出。,module,Magento_Security
 "Page not found.",找不到頁面。,module,Magento_SendFriend
 Filename,檔案名稱,module,Magento_Sitemap
 "Invalid store parameter.",無效的存儲參數。,module,Magento_Store
@@ -866,6 +867,9 @@ Reset,重置,module,Magento_User
 "Delete Tax",刪除稅項,module,Magento_Weee
 "All Websites",所有網站,module,Magento_Weee
 Close,關閉,module,Magento_Widget
+"Wish List",願望清單,module,Magento_Wishlist
+"Wish List Sharing",分享願望清單,module,Magento_Wishlist
+"My Wish List",我的願望清單,module,Magento_Wishlist
 "Place Order",確認訂單,module,Magento_Authorizenet
 "Credit Card Information",信用卡資訊,module,Magento_Braintree
 "What is this?",這是怎麽？,module,Magento_Braintree
