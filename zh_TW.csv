@@ -659,6 +659,33 @@ Scope,範圍,module,Magento_Catalog
 "Use for Promo Rule Conditions",可以作為促銷條件之一,module,Magento_Catalog
 "Enable WYSIWYG",啟用WYSIWYG,module,Magento_Catalog
 "Allow HTML Tags on Storefront","在店面上允許使用 HTML 標籤",module,Magento_Catalog
+"Depends on design theme.",取決於設計主題。,module,Magento_Catalog
+"Used for Sorting in Product Listing",用於排序產品的列表,module,Magento_Catalog
+"Media Image",媒體形像,module,Magento_Catalog
+Gallery,圖庫,module,Magento_Catalog
+"System Properties",系統屬性,module,Magento_Catalog
+No,否,module,Magento_Catalog
+Yes,是,module,Magento_Catalog
+"Data Type for Saving in Database",在數據庫中保存的數據類型,module,Magento_Catalog
+Text,文字,module,Magento_Catalog
+Static,靜態,module,Magento_Catalog
+Datetime,日期時間,module,Magento_Catalog
+Decimal,小數點,module,Magento_Catalog
+Integer,整數,module,Magento_Catalog
+"Attribute Information",屬性信息,module,Magento_Catalog
+Properties,屬性,module,Magento_Catalog
+Visible,可見,module,Magento_Catalog
+"Delete Selected Group",刪除選定的群組,module,Magento_Catalog
+"Add New",新增,module,Magento_Catalog
+Back,返回,module,Magento_Catalog
+Reset,重設,module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?",您將刪除此屬性中的所有產品。你確定要這麼做嗎？,module,Magento_Catalog
+Empty,空白,module,Magento_Catalog
+"Add Attribute",添加產品屬性,module,Magento_Catalog
+"Add New Group",添加新的群組,module,Magento_Catalog
+"Add Group",添加群組,module,Magento_Catalog
+"Based On",根據,module,Magento_Catalog
+"New Product",新產品,module,Magento_Catalog
 "Save & Edit",保存與編輯,module,Magento_Catalog
 "Save & New",保存與新增,module,Magento_Catalog
 "Save & Duplicate",保存與複製,module,Magento_Catalog
@@ -709,6 +736,8 @@ Quantity,數量,module,Magento_Catalog
 Edit,編輯,module,Magento_Catalog
 "Are you sure?",您確定嗎？,module,Magento_Catalog
 "Change Status",更改狀態,module,Magento_Catalog
+"Add New Images",添加新圖片,module,Magento_Catalog
+"Inc. Tax",含稅,module,Magento_Catalog
 "Does this have a weight?",是否包含重量,module,Magento_Catalog
 Product,產品,module,Magento_Catalog
 "Notify Low Stock RSS",RSS低庫存通知,module,Magento_Catalog
@@ -742,6 +771,12 @@ Categories,分類,module,Magento_Catalog
 "You saved the category.",分類已儲存,module,Magento_Catalog
 "Something went wrong while saving the category.",儲存分類時發生錯誤,module,Magento_Catalog
 "Please select products for attributes update.",請選擇商品以更新屬性,module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","請確保已為所有產品定義 SKU 值。",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.",在更新產品的属性時，系统出錯。,module,Magento_Catalog
+"Unable to add attribute",無法添加該物品的屬性,module,Magento_Catalog
+"Please, specify attributes",請填寫該物品的屬性,module,Magento_Catalog
+Catalog,目錄,module,Magento_Catalog
+"You deleted the product attribute.",你刪除了產品屬性。,module,Magento_Catalog
 "This attribute cannot be edited.",不能編輯此屬性。,module,Magento_Catalog
 "Edit Product Attribute",編輯產品屬性,module,Magento_Catalog
 "Something went wrong while saving the attribute.",保存該屬性時出錯。,module,Magento_Catalog
@@ -789,17 +824,81 @@ All,全部,module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","""%1""屬性的值必須是唯一的。",module,Magento_Catalog
 "No layout updates",沒有佈局更新,module,Magento_Catalog
 "Products only",僅產品,module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3","無法保存產品""%1""與位置 %2 到類別 %3",module,Magento_Catalog
+Center,中心,module,Magento_Catalog
+"Something went wrong while saving the file(s).",在储存文件夹時，系统出錯。,module,Magento_Catalog
 "We can't rebuild the index for an undefined product.",我們不能為未定義的產品重建索引。,module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","“平面目錄模塊” 有著 %2$d 的限制並擁有可排序的屬性。目前的屬性為 %1$d 。請減少可排序屬性的數量才能使用該產品。",module,Magento_Catalog
+"Unsupported product type ""%1"".","不受支持的產品類型""%1""。",module,Magento_Catalog
+"Please correct the category.",請更正該類別。,module,Magento_Catalog
+"Must be category model instance or its id.","必須是模型類別或其 id。",module,Magento_Catalog
+"The attribute model is not defined.",模型的屬性未定義。,module,Magento_Catalog
+Category,類別,module,Magento_Catalog
+"Clear Price",明確價格,module,Magento_Catalog
+"Please enter a number 0 or greater in this field.",請在該字段中輸入大過於0的數字。,module,Magento_Catalog
+Enabled,啟用,module,Magento_Catalog
+Disabled,停用,module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.",我們不能複製檔案%1。請刪除媒體與不存在的圖片然後重試。,module,Magento_Catalog
+"The image content is not valid.",圖像內容是無效的。,module,Magento_Catalog
+"Cannot save product.",無法保存產品。,module,Magento_Catalog
+"There is no image with provided ID.","你提供 id的沒有圖像。",module,Magento_Catalog
 "Such product doesn't exist",這種產品並不存在,module,Magento_Catalog
 "Such image doesn't exist",這種圖像並不存在,module,Magento_Catalog
+"The image does not exist.",圖像不存在,module,Magento_Catalog
+"Please correct the image file type.",請更正圖像文件類型。,module,Magento_Catalog
 "We couldn't move this file: %1.",我們不能移動這個檔案：%1。,module,Magento_Catalog
 "We can't find the image file.",我們找不到該圖片檔案。,module,Magento_Catalog
 "Please specify product's required option(s).",請指定產品必需的選項。,module,Magento_Catalog
 "File '%1' is not an image.","檔案 '%1' 不是圖片。",module,Magento_Catalog
+"The text is too long.",文本太長。,module,Magento_Catalog
+"Please provide valid data",請提供有效的的數據,module,Magento_Catalog
+"The file upload failed.",上載文件夾失敗,module,Magento_Catalog
+Search,搜尋,module,Magento_Catalog
+"Catalog, Search",目錄，搜索,module,Magento_Catalog
 "Requested product doesn't exist",要求的產品並不存在,module,Magento_Catalog
 "Attribute '%1' is locked. %2","屬性 '%1' 被鎖定。%2",module,Magento_Catalog
+test,測試,module,Magento_Catalog
+Images,圖片,module,Magento_Catalog
+Select...,選擇…,module,Magento_Catalog
+name,名稱,module,Magento_Catalog
+"This operation can take a long time",此操作可能需要很長時間,module,Magento_Catalog
+"Expand All",全部展開,module,Magento_Catalog
+Groups,組合,module,Magento_Catalog
 "Sorry, we're unable to complete this request.",對不起，我們無法完成這個請求。,module,Magento_Catalog
+Qty,數量,module,Magento_Catalog
+"Delete image",刪除圖片,module,Magento_Catalog
+Hidden,隐藏,module,Magento_Catalog
+Role,角色,module,Magento_Catalog
+"Image Size",圖像大小,module,Magento_Catalog
+"Image Resolution",圖像分辨率,module,Magento_Catalog
+"Hide from Product Page",從產品頁面隱藏該產品,module,Magento_Catalog
+"Allow Multiple Boxes for Shipping",允許多個貨品同時運送,module,Magento_Catalog
+"Select All",選擇全部,module,Magento_Catalog
+"Unselect All",取消全選,module,Magento_Catalog
+"Special Price",特價,module,Magento_Catalog
+"Regular Price",原價,module,Magento_Catalog
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","每個購買 %2 附送 %1並且<strong class =“benefit”>保存<span class =“percent tier-<span class=""percent tier-%3"">&nbsp;%4 </span>％</strong>",module,Magento_Catalog
+"Print This Page",打印此頁,module,Magento_Catalog
+"Remove Product",刪除该商品,module,Magento_Catalog
+"Add to Cart",加入購物車,module,Magento_Catalog
+"In stock",有存貨,module,Magento_Catalog
+"Out of stock",缺貨,module,Magento_Catalog
+"Add to Wish List",添加至願望清單,module,Magento_Catalog
+"Remove This Item",移除此物品,module,Magento_Catalog
+Compare,比較,module,Magento_Catalog
+"Clear All",全部清除,module,Magento_Catalog
+Prev,上一頁,module,Magento_Catalog
+Next,接著,module,Magento_Catalog
+"Learn More",詳細內容,module,Magento_Catalog
+"We found other products you might like!",以下是你可能喜歡的產品！,module,Magento_Catalog
+"More Choices:",更多的選擇：,module,Magento_Catalog
+"select all",全選,module,Magento_Catalog
+"%1 Item","%1 物品",module,Magento_Catalog
+"%1 Items","%1 物品",module,Magento_Catalog
+Show,顯示,module,Magento_Catalog
+"per page",每頁,module,Magento_Catalog
+Loading...,"加載中。 。 。",module,Magento_Catalog
+"* Required Fields","* 為必填項",module,Magento_Catalog
 Country,國家,module,Magento_Checkout
 "Zip/Postal Code",郵政編碼,module,Magento_Checkout
 "We can't add this item to your shopping cart right now.",現在無法新增至購物車,module,Magento_Checkout
@@ -883,7 +982,14 @@ Close,關閉,module,Magento_Widget
 "Sorry, but something went wrong.",對不起，出了問題。,module,Magento_Braintree
 "Add Products to New Option",將產品添加到新的選項,module,Magento_Bundle
 "Add Products to Option ""%1""","將產品添加到""%1""選項",module,Magento_Bundle
+Submit,提交,module,Magento_Catalog
+OK,確定,module,Magento_Catalog
 "This value does not follow the specified format (for example, 200x300).","不符合指定的格式標準 (例如，200 x 300)。",module,Magento_Catalog
+"Please select items.",請選擇物品。,module,Magento_Catalog
+"Image Detail",相片詳情,module,Magento_Catalog
+Adding...,添加中。。。,module,Magento_Catalog
+Added,已添加,module,Magento_Catalog
+"unselect all",全部取消選擇,module,Magento_Catalog
 "Show Toolbar",顯示工具列,module,Magento_AdminNotification
 "Show List",顯示清單,module,Magento_AdminNotification
 "Use HTTPS to Get Feed","使用 HTTPS 獲取資料",module,Magento_AdminNotification
@@ -1163,4 +1269,23 @@ Forms,表單,module,Magento_Captcha
 "Case Sensitive",區分大小寫,module,Magento_Captcha
 "Enable CAPTCHA on Storefront",啟用在店面上的驗證碼,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.",如果選擇了“創建用戶”和“忘記密碼”表單，一律啟用驗證碼。,module,Magento_Captcha
+Inventory,庫存,module,Magento_Catalog
+"Use {{name}} and {{description}} as Product Name and Product Description placeholders","使用{{name}} 和{{description}} 作為產品名稱和產品描述內容",module,Magento_Catalog
+"Products per Page on Grid Allowed Values",這個網頁允許的產品展示數量,module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","是否在‘每頁顯示X頁’ 下顯示“全部”選項",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.",這僅適用於產品目錄和類別頁面。媒體內容將作為“靜態URL”插入編輯器中。如果系統的基本URL更改，媒體內容將不會更新。,module,Magento_Catalog
+"All products",全部產品,module,Magento_Catalog
+"New products",新產品,module,Magento_Catalog
+Template,範本,module,Magento_Catalog
+"New Products Images and Names Template",新產品的圖片和名稱範本,module,Magento_Catalog
+"New Products Names Only Template",新產品名稱範本,module,Magento_Catalog
+"New Products Images Only Template",新產品圖片範本,module,Magento_Catalog
+Content,內容,module,Magento_Catalog
+"Category Image",圖像類別,module,Magento_Catalog
+"Add CMS Block","添加CMS 模塊",module,Magento_Catalog
+"Display Settings",顯示設定,module,Magento_Catalog
+Image,圖像,module,Magento_Catalog
+Small,小,module,Magento_Catalog
+Overview,概覽,module,Magento_Catalog
+Details,詳細資料,module,Magento_Catalog
 "Copyright © 2017 Magento, Inc. All rights reserved.","&copy; %1 Magento Commerce Inc. 版權所有，並保留所有權利。",module,Magento_Theme
