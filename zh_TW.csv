@@ -27,6 +27,7 @@ notice,通知,module,Magento_AdminNotification
 "Wrong message type",錯誤訊息類型,module,Magento_AdminNotification
 "Wrong notification ID specified.","指定了錯誤的訊息 ID。",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","在生產環境中不建議使用{{base_url}}作為加密／非加密的根網址，建議在Magento<a href=""%1"">設定</a>中更改為其他值。",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","一個或多個緩存類型都將失效︰ %1。 ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","請前往<a href=""%1"">緩存管理</a>並刷新緩存類型。",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.",有些媒體檔案未能同步，詳請參考例外日誌。,module,Magento_AdminNotification
 "Synchronization of media storages has been completed.",媒體庫同步已完成。,module,Magento_AdminNotification
@@ -37,6 +38,7 @@ notice,通知,module,Magento_AdminNotification
 "System messages",系統訊息,module,Magento_AdminNotification
 Close,關閉,module,Magento_AdminNotification
 "See All (",顯示全部（,module,Magento_AdminNotification
+" unread)",未讀）,module,Magento_AdminNotification
 "Please correct the data sent.",請更正發送的資料。,module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","找不到實體類型模型 '%1'",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","實體類型必須屬於 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType 裡的其中一個類型",module,Magento_AdvancedPricingImportExport
@@ -79,6 +81,7 @@ void,無效,module,Magento_Authorizenet
 "Credit Card Number",信用卡卡號,module,Magento_Authorizenet
 "Expiration Date",到期日期,module,Magento_Authorizenet
 "Card Verification Number",信用卡驗證號碼,module,Magento_Authorizenet
+"Fraud Detection ","欺詐檢測 ",module,Magento_Authorizenet
 "FDS Filter Action","FDS 篩選器操作",module,Magento_Authorizenet
 "AVS Response",AVS地址驗證服務,module,Magento_Authorizenet
 "Card Code Response",卡代碼回應,module,Magento_Authorizenet
@@ -278,6 +281,7 @@ System,系統,module,Magento_Backend
 "The store does not exist",商店不存在,module,Magento_Backend
 "Store view doesn't exist",店面不存在,module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","修改店面代碼前請確保它不用在 index.php 中。",module,Magento_Backend
+"New ","新增 ",module,Magento_Backend
 "You saved the website.",你已儲存網站。,module,Magento_Backend
 "An inactive store view cannot be saved as default store view",處於非活動狀態店面不能保存為預設店面,module,Magento_Backend
 "You saved the store.",你已儲存了商店。,module,Magento_Backend
@@ -353,12 +357,12 @@ Images,圖片,module,Magento_Backend
 Thumbnail,縮圖,module,Magento_Backend
 "Additional Settings",附加設置,module,Magento_Backend
 "records found",找到的記錄,module,Magento_Backend
-selected,已選的,module,Magento_Backend
+selected,"已選的 ",module,Magento_Backend
 "per page",每頁,module,Magento_Backend
 "Previous page",上一頁,module,Magento_Backend
 "of %1",%1的,module,Magento_Backend
 "Next page",下一頁,module,Magento_Backend
-"Export to:",匯出至,module,Magento_Backend
+"Export to:","匯出至 ",module,Magento_Backend
 Actions,操作,module,Magento_Backend
 "Mass Actions",大規模的操作,module,Magento_Backend
 "Unselect All",全部取消選擇,module,Magento_Backend
@@ -493,7 +497,7 @@ Separately,分開,module,Magento_Bundle
 "The required options you selected are not available.",您選擇的必要選項不可用。,module,Magento_Bundle
 "Please select all required options.",請選擇所有必要的選項。,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.",我們現在不能將此項添加到您的購物車。,module,Magento_Bundle
-N/A,不適用,module,Magento_Bundle
+N/A,"不適用 ",module,Magento_Bundle
 Percent,%,module,Magento_Bundle
 "We can't save custom-defined options for bundles with dynamic pricing.",我們無法在自定義選項中保存具有動態定價的捆綁包。,module,Magento_Bundle
 Cancel,取消,module,Magento_Bundle
@@ -545,8 +549,8 @@ Quantity,數量,module,Magento_Bundle
 "No options of this product are available.",沒有這種產品可用的選項。,module,Magento_Bundle
 "Gift Message",禮物信息,module,Magento_Bundle
 From:,從：,module,Magento_Bundle
-To:,至：,module,Magento_Bundle
-Message:,訊息：,module,Magento_Bundle
+To:,"至： ",module,Magento_Bundle
+Message:,"訊息： ",module,Magento_Bundle
 "Product Name",產品名稱,module,Magento_Bundle
 Subtotal,小計,module,Magento_Bundle
 "Discount Amount",折扣金額,module,Magento_Bundle
@@ -614,7 +618,7 @@ Position,位置,module,Magento_Catalog
 "Add Root Category",添加根類別,module,Magento_Catalog
 Day,日,module,Magento_Catalog
 Month,月,module,Magento_Catalog
-Year,年,module,Magento_Catalog
+Year,"年 ",module,Magento_Catalog
 "<label class=""label""><span>from</span></label>","<label class=""label""> <span>從</span></label>",module,Magento_Catalog
 "<label class=""label""><span>to</span></label>","<label class=""label""> <span>到</span></label>",module,Magento_Catalog
 "[STORE VIEW]",[商店總覽],module,Magento_Catalog
@@ -686,7 +690,7 @@ Empty,空白,module,Magento_Catalog
 "Save & Duplicate",保存與複製,module,Magento_Catalog
 "Save & Close",保存和關閉,module,Magento_Catalog
 Attributes,屬性,module,Magento_Catalog
-Change,更改,module,Magento_Catalog
+Change,"更改 ",module,Magento_Catalog
 "Advanced Inventory",進階庫存,module,Magento_Catalog
 Websites,網站,module,Magento_Catalog
 "Products Information",產品資訊,module,Magento_Catalog
@@ -723,7 +727,7 @@ Import,匯入,module,Magento_Catalog
 "Related Products",相關產品,module,Magento_Catalog
 Up-sells,向上銷售,module,Magento_Catalog
 Cross-sells,交叉銷售,module,Magento_Catalog
-"Size for %1","%1 的大小",module,Magento_Catalog
+"Size for %1"," %1 的大小",module,Magento_Catalog
 "Watermark File for %1","%1 的浮水印檔",module,Magento_Catalog
 "Position of Watermark for %1","%1 的浮水印的位置",module,Magento_Catalog
 "Name in %1","在 %1 的名字",module,Magento_Catalog
@@ -870,6 +874,7 @@ Role,角色,module,Magento_Catalog
 "Unselect All",取消全選,module,Magento_Catalog
 "Special Price",特價,module,Magento_Catalog
 "Regular Price",原價,module,Magento_Catalog
+"Buy %1 for: ","購買 %1: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","每個購買 %2 附送 %1並且<strong class =“benefit”>保存<span class =“percent tier-<span class=""percent tier-%3"">&nbsp;%4 </span>％</strong>",module,Magento_Catalog
 "Print This Page",打印此頁,module,Magento_Catalog
 "Remove Product",刪除该商品,module,Magento_Catalog
@@ -897,7 +902,7 @@ Country,國家,module,Magento_Checkout
 "We can't add this item to your shopping cart right now.",現在無法新增至購物車,module,Magento_Checkout
 "We can't remove the item.",我們不能刪除產品,module,Magento_Checkout
 "We can't update the item right now.",我們現在無法更新,module,Magento_Checkout
-"We can't update the shopping cart.",我們無法更新購物車,module,Magento_Checkout
+"We can't update the shopping cart.","我們無法更新購物車 ",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 不能延伸 \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.",找不到產品,module,Magento_Checkout
 Back,上一步,module,Magento_Cms
@@ -1021,7 +1026,7 @@ Marketing,行銷,module,Magento_Backend
 Content,內容,module,Magento_Backend
 Elements,元素,module,Magento_Backend
 Design,設計,module,Magento_Backend
-Schedule,日程表,module,Magento_Backend
+Schedule,"日程表 ",module,Magento_Backend
 Settings,設定,module,Magento_Backend
 "All Stores",所有商店,module,Magento_Backend
 Attributes,屬性,module,Magento_Backend
@@ -1122,6 +1127,10 @@ Security,安全性,module,Magento_Backend
 Web,網頁,module,Magento_Backend
 "Url Options","Url 選項",module,Magento_Backend
 "Add Store Code to Urls","將店舖代碼添加到 Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> 警告 ！</strong>在網址中使用商店代號時，在某些情況下如果第三方服務 （如 PayPal 等）沒有指定商店代號，系統可能出錯。                    ",module,Magento_Backend
 "Auto-redirect to Base URL",自動導向至基礎網址,module,Magento_Backend
 "Search Engine Optimization",搜尋引擎優化,module,Magento_Backend
 "Use Web Server Rewrites",使用網站伺服器重寫,module,Magento_Backend
@@ -1190,7 +1199,7 @@ Type,類別,module,Magento_Backup
 Download,下載,module,Magento_Backup
 Action,操作,module,Magento_Backup
 "Enable this Solution",啟用此解決方案,module,Magento_Braintree
-"Enable PayPal through Braintree","准許 Paypal 透過 Braintree",module,Magento_Braintree
+"Enable PayPal through Braintree","准許 Paypal 透過 Braintree ",module,Magento_Braintree
 "Basic Braintree Settings","基本 Braintree 設置",module,Magento_Braintree
 Title,標題,module,Magento_Braintree
 Environment,環境,module,Magento_Braintree
@@ -1210,7 +1219,7 @@ Debug,除錯,module,Magento_Braintree
 "Payment from Applicable Countries",適用國家的付款,module,Magento_Braintree
 "Payment from Specific Countries",特定國家的付款,module,Magento_Braintree
 "Country Specific Credit Card Types",國家特定的信用卡類型,module,Magento_Braintree
-"PayPal through Braintree","Paypal 透過 Braintree",module,Magento_Braintree
+"PayPal through Braintree","Paypal 透過 Braintree ",module,Magento_Braintree
 "Override Merchant Name",重寫商戶名稱,module,Magento_Braintree
 "Require Customer's Billing Address",需要客戶的帳單地址,module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","允許編輯在 PayPal 結帳時輸入的送貨地址",module,Magento_Braintree
@@ -1221,7 +1230,7 @@ Debug,除錯,module,Magento_Braintree
 "Verify for Applicable Countries",驗證為適用的國家,module,Magento_Braintree
 "Verify for Specific Countries",驗證為特定的國家,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","應用篩選器以獲得結果。 網格中只會顯示前100條記錄，您將能夠以.csv格式下載完整的報告。",module,Magento_Braintree
-Select...,選擇…,module,Magento_Braintree
+Select...,"選擇… ",module,Magento_Braintree
 Status,狀態,module,Magento_Braintree
 "Transaction Type",交易類型,module,Magento_Braintree
 "PayPal Payment ID","PayPal 付款編號",module,Magento_Braintree
@@ -1236,14 +1245,14 @@ Amount,金額,module,Magento_Braintree
 "Refund Ids","退款 Ids",module,Magento_Braintree
 "Settlement Batch ID",結算批次編號,module,Magento_Braintree
 Currency,貨幣,module,Magento_Braintree
-Select...,選擇…,module,Magento_Bundle
+Select...,"選擇… ",module,Magento_Bundle
 Status,狀態,module,Magento_Bundle
 Thumbnail,縮圖,module,Magento_Bundle
 Type,類型,module,Magento_Bundle
 CAPTCHA,驗證碼,module,Magento_Captcha
 "Enable CAPTCHA in Admin",在管理員啟用驗證碼,module,Magento_Captcha
 Font,字體,module,Magento_Captcha
-Forms,表單,module,Magento_Captcha
+Forms,"表單 ",module,Magento_Captcha
 "Displaying Mode",顯示模式,module,Magento_Captcha
 "Number of Unsuccessful Attempts to Login",嘗試登錄失敗次數,module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","如果指定 0，登錄表單上的驗證碼將一律可用。",module,Magento_Captcha
@@ -1251,6 +1260,10 @@ Forms,表單,module,Magento_Captcha
 "Number of Symbols",符號數,module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","請最多指定8個符號。 範圍允許（例如3-5）",module,Magento_Captcha
 "Symbols Used in CAPTCHA",在驗證碼中使用的符號,module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+請在此字段中使用字母（a-z或A-Z）或數字（0-9）。 不允許空格或其他字符。<br />相似的字符（例如“i”，“l”，“1”）會減少了客戶正確識別的機會。                    ",module,Magento_Captcha
 "Case Sensitive",區分大小寫,module,Magento_Captcha
 "Enable CAPTCHA on Storefront",啟用在店面上的驗證碼,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.",如果選擇了“創建用戶”和“忘記密碼”表單，一律啟用驗證碼。,module,Magento_Captcha
