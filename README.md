@@ -6,16 +6,16 @@ Or [Mageplaza maintained packages](https://github.com/mageplaza?q=language).
 
 # Chinese (中文) Magento2 Language Pack (zh_TW)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
-The Chinese (中文) translations used can be found [here](https://crowdin.com/project/magento-2/zh).
+The Chinese (中文) translations used can be found [here](https://crowdin.com/project/magento-2/zh-tw).
 This translation is usefull for people living in the Taiwan (台湾).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh#/Head) at Crowdin and based on the Magento 2.2.0 sourcefiles.
-There have been  1241 strings translated of the 8763 strings in the Magento source.
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh-tw#/Head) at Crowdin and based on the Magento 2.3.1 sourcefiles.
+There have been  1309 strings translated of the 11254 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/14)
+Translation progress:![Progress](http://progressed.io/bar/12)
 
 # Installation
 **Please select the git branch appropriate for your magento version from this repo.**
@@ -37,7 +37,7 @@ To install this language package manually you need access to your server file sy
 To use this language pack login to your admin panel and goto `Stores -> Configuration -> General > General -> Locale options` and set the '*locale*' option as '*Chinese (Taiwan)*'
 
 # Contribute
-To help push the '*Chinese (中文) Magento2 Language Pack (zh_TW)*' forward please goto [this](https://crowdin.com/project/magento-2/zh) crowdin page and translate the lines.
+To help push the '*Chinese (中文) Magento2 Language Pack (zh_TW)*' forward please goto [this](https://crowdin.com/project/magento-2/zh-tw) crowdin page and translate the lines.
 
 # Authors
 The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
